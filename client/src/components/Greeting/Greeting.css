@@ -1,0 +1,18 @@
+.greeting-logged, .greeting-unlogged {
+    margin: 10px;
+    text-align: center;
+    color: #ff79c6;
+}
+
+.greeting-logged h1 {
+    font-size: 1.5em;
+}
+
+.greeting-unlogged h1 {
+    font-size: 3em;
+}
+
+.greeting-unlogged p {
+    font-size: 1.5em;
+    color: #f8f8f2;
+}

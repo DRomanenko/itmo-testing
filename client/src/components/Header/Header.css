@@ -1,0 +1,29 @@
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: #f8f8f2;
+    background-color: #282a36;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.header li a, .header li div {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #ff79c6;
+}
+
+.header li a:hover {
+    color: #282a36;
+    background-color: #ff79c6;
+}

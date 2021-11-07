@@ -1,0 +1,24 @@
+.item {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    border: 2px solid #ff79c6;
+    background-color: #282a36;
+}
+
+.item h4 {
+    color: #ff79c6;
+    margin-bottom: 5px;
+}
+
+.item p {
+    font-size: 0.9em;
+    color: #f8f8f2;
+    text-align: start;
+    margin-bottom: 0;
+}
+
+.item small {
+    color: #50fa7b;
+}
