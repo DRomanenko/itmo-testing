@@ -1,0 +1,36 @@
+= MyAsciiDOC
+:source-highlighter: highlightjs
+:snippets: ../../../target/snippets
+
+== Authorization
+
+:class: AuthControllerTest
+
+=== Current user
+
+:method: correct - current-user returns for an authorised user
+include::method.adoc[]
+
+=== Register
+
+:method: correct - register
+include::method.adoc[]
+
+=== Login
+
+:method: correct - login
+include::method.adoc[]
+
+== Recipes
+
+:class: RecipesControllerTest
+
+=== Get all recipes
+
+:method: correct - get recipes
+include::method.adoc[]
+
+=== Add recipe
+
+:method: correct - add recipe
+include::method.adoc[]

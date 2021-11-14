@@ -44,3 +44,55 @@ cd client && yarn playwright test src/tests/e2e/*
 ```bash
 cd client && yarn cypress run
 ```
+
+## ДЗ 2 (Тестирование Backend)
+### Main часть:
+
+- [x] Создать сервис на Java+Spring+PostgreSQL, который имеет как минимум 1 Controller;
+- [x] Написать Unit и Component тесты для этого сервиса;
+- [x] Использовать TestContainers тестов с DB;
+- [x] Использовать Mockito для мокирования тестов с внешним сервисом;
+- [x] Написать [документацию](backend/TODO.md) какие тесты еще необходимо написать, но я не успел;
+
+### Advanced часть:
+
+- [x] Сделать взаимодействие сервиса и вашего Frontend приложения;
+- [x] Сделать тесты на авторизацию;
+- [x] Создать отдельные Spring Test Configruation, которые можно переключать с помощью флага при запуске тестов;
+- [x] Сделать генерацию тестовой документации через Asci Doctor(Spring Rest Docs);
+
+### Bonus часть:
+
+- [ ] Придумать функциональность, с которой можно использовать очереди/стримы вида RabbitMQ/Kafka streams;
+- [ ] Написать компонентные тесты на эту функциональность(используя TestContainers);
+
+### Запуск
+- [**database**](backend/src/main/resources/application.properties) - `port-5432`
+```properties
+# set username and password
+spring.datasource.username=
+spring.datasource.password=
+```
+- [**backend**](backend) - `port-5000`
+```bash
+cd backend && mvn spring-boot:run
+```
+- [**client**](client) - `port-3000`
+```bash
+cd client && yarn start
+```
+- [**test**](backend/src/test/kotlin/com/github/dromanenko/backend) - `default spring mock`
+```bash
+cd backend && mvn test
+```
+- [**test config**](backend/src/test/kotlin/com/github/dromanenko/backend/base/configuration)
+```bash
+# for Spring Mocks
+cd backend && mvn test -D test.configuration=spring 
+# for Mockito Mocks
+cd backend && mvn test -D test.configuration=mockito
+```
+- [**asciidoc**](backend/src/main/asciidoc) - `output_dir=target/docs`
+```bash
+cd backend && mvn generate-resources
+```

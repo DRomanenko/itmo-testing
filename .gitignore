@@ -17,3 +17,6 @@ plugins
 screenshots
 support
 videos
+
+target
+.mvn
