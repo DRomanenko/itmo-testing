@@ -18,7 +18,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: set up JDK 17
+      - name: Set up JDK 17
         uses: actions/setup-java@v2
         with:
           distribution: 'temurin'
@@ -58,11 +58,15 @@ jobs:
 
       - name: Install dependencies
         working-directory: client
-        run: npm install
+        uses: borales/actions-yarn@v2.3.0
+        with:
+          cmd: install
 
       - name: Run Frontend Tests
         working-directory: client
-        run: npm test
+        uses: borales/actions-yarn@v2.3.0
+        with:
+          cmd: test
 
   End-To-End-Tests:
     name: End-to-End Tests
@@ -90,11 +94,20 @@ jobs:
 
       - name: Install dependencies
         working-directory: client
-        run: npm install
+        uses: borales/actions-yarn@v2.3.0
+        with:
+          cmd: install
 
       - name: Start Backend
         working-directory: backend
         run: mvn spring-boot:run &
+
+      - name: Run Cypress Tests
+        uses: cypress-io/github-action@v2
+        with:
+          browser: chrome
+          build: npm run build
+          start: npm start
 
       - name: Run Cypress Tests
         uses: cypress-io/github-action@v2
