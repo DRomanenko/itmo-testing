@@ -96,3 +96,16 @@ cd backend && mvn test -D test.configuration=mockito
 ```bash
 cd backend && mvn generate-resources
 ```
+
+## ДЗ 3 (CI/CD (GtiHub Actions))
+### Main часть:
+
+- [X] Добавить GitHub action для запуска тестов на UI и Backend по пушу из в master ветку.
+
+### Advanced часть:
+
+- [ ] Добавить GitHub action для деплоя приложения UI+BE на Azure/Vercel/Яндекс Облако.
+
+### Bonus часть:
+
+- [ ] Использовать Kubernetes в Azure/Яндекс Облаке для разворачивания среды.
