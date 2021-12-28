@@ -19,11 +19,11 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Build Backend
-        working-directory: spring-backend
+        working-directory: backend
         run: mvn compile test-compile
 
       - name: Run Backend Tests
-        working-directory: spring-backend
+        working-directory: backend
         run: mvn test
 
       - name: Build Adoc PDF
@@ -86,7 +86,7 @@ jobs:
         run: npm install
 
       - name: Start Backend
-        working-directory: spring-backend
+        working-directory: backend
         run: mvn spring-boot:run &
 
       - name: Run Cypress Tests
