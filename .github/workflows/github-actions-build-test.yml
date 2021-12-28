@@ -1,0 +1,104 @@
+name: GitHub Actions Build and Test
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+env:
+  NODE_VERSION: '16'
+
+jobs:
+  Backend-Tests:
+    name: Backend Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Build Backend
+        working-directory: spring-backend
+        run: mvn compile test-compile
+
+      - name: Run Backend Tests
+        working-directory: spring-backend
+        run: mvn test
+
+      - name: Build Adoc PDF
+        uses: tonynv/asciidoctor-action@v2
+        with:
+          program: "asciidoctor-pdf -a allow-uri-read -D . backend/src/main/asciidoc/index.adoc"
+
+      - name: Upload Adoc PDF Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: docs.pdf
+          path: index.pdf
+
+  Frontend-Tests:
+    name: Frontend Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup node 16
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Install dependencies
+        working-directory: client
+        run: npm install
+
+      - name: Run Frontend Tests
+        working-directory: client
+        run: npm test
+
+  End-To-End-Tests:
+    name: End-to-End Tests
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:14
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: postgres
+        ports:
+          - 5432:5432
+        options: --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5
+    needs: [ Backend-Tests, Frontend-Tests ]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup node 16
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Install dependencies
+        working-directory: client
+        run: npm install
+
+      - name: Start Backend
+        working-directory: spring-backend
+        run: mvn spring-boot:run &
+
+      - name: Run Cypress Tests
+        uses: cypress-io/github-action@v2
+        with:
+          working-directory: client
+          start: npm start
+          wait-on: 'http://localhost:5000/recipes, http://localhost:3000'
+          wait-on-timeout: 120
+          headless: true
+          browser: chrome
+
+      - name: Run Playwirght Tests
+        working-directory: client
+        run: npx playwright test src/tests/e2e/*
