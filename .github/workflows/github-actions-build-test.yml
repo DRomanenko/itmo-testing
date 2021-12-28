@@ -58,11 +58,11 @@ jobs:
 
       - name: Install dependencies
         working-directory: client
-          run: yarn install
+          run: npm install
 
       - name: Run Frontend Tests
         working-directory: client
-          run: yarn test
+          run: npm test
 
   End-To-End-Tests:
     name: End-to-End Tests
@@ -90,7 +90,7 @@ jobs:
 
       - name: Install dependencies
         working-directory: client
-        run: yarn install
+        run: npm install
 
       - name: Start Backend
         working-directory: backend
@@ -105,5 +105,5 @@ jobs:
         with:
           working-directory: client
           browser: chrome
-          build: yarn run build
-          start: yarn start
+          build: npm run build
+          start: npm start
