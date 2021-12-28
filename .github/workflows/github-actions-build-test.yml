@@ -96,14 +96,13 @@ jobs:
         working-directory: backend
         run: mvn spring-boot:run &
 
+      - name: Run Playwirght Tests
+        working-directory: client
+        run: npx playwright test src/tests/e2e/*
+
       - name: Run Cypress Tests
         uses: cypress-io/github-action@v2
         with:
           working-directory: client
           browser: chrome
-          build: npm run build
-          start: npm start
-
-      - name: Run Playwirght Tests
-        working-directory: client
-        run: npx playwright test src/tests/e2e/*
+          start: npm cypress run
