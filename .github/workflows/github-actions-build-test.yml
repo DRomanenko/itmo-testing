@@ -97,12 +97,12 @@ jobs:
         run: mvn spring-boot:run &
 
       - name: Run Cypress Tests
-          uses: cypress-io/github-action@v2
-          with:
-            working-directory: client
-            browser: chrome
-            build: npm run build
-            start: npm start
+        uses: cypress-io/github-action@v2
+        with:
+          working-directory: client
+          browser: chrome
+          build: npm run build
+          start: npm start
 
       - name: Run Playwirght Tests
         working-directory: client
