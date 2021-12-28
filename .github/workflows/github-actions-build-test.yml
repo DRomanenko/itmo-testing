@@ -107,9 +107,9 @@ jobs:
         run: npx playwright test src/tests/e2e/*
 
       - name: Run Cypress Tests
-        working-directory: client
         uses: cypress-io/github-action@v2
         with:
+          working-directory: client
           browser: chrome
           build: npm run build
           start: npm start
