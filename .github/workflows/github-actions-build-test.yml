@@ -58,15 +58,11 @@ jobs:
 
       - name: Install dependencies
         working-directory: client
-        uses: borales/actions-yarn@v2.3.0
-        with:
-          cmd: install
+          run: yarn install
 
       - name: Run Frontend Tests
         working-directory: client
-        uses: borales/actions-yarn@v2.3.0
-        with:
-          cmd: test
+          run: yarn test
 
   End-To-End-Tests:
     name: End-to-End Tests
@@ -94,9 +90,7 @@ jobs:
 
       - name: Install dependencies
         working-directory: client
-        uses: borales/actions-yarn@v2.3.0
-        with:
-          cmd: install
+        run: yarn install
 
       - name: Start Backend
         working-directory: backend
@@ -111,5 +105,5 @@ jobs:
         with:
           working-directory: client
           browser: chrome
-          build: npm run build
-          start: npm start
+          build: yarn run build
+          start: yarn start
