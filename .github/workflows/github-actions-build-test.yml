@@ -87,7 +87,7 @@ jobs:
 
       - name: Start Backend
         working-directory: backend
-        run: mvn spring-boot:run
+        run: mvn spring-boot:run &
 
       - name: Run Cypress Tests
         uses: cypress-io/github-action@v2
