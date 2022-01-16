@@ -87,14 +87,14 @@ jobs:
 
       - name: Start Backend
         working-directory: backend
-        run: mvn spring-boot:run
+        run: mvn spring-boot:run &
 
       - name: Run Cypress Tests
         uses: cypress-io/github-action@v2
         with:
           working-directory: client
           start: npm start
-          wait-on: 'http://localhost:3000'
+          wait-on: 'http://localhost:5000, http://localhost:3000'
           wait-on-timeout: 120
           headless: true
           browser: chrome
