@@ -85,16 +85,20 @@ jobs:
         working-directory: client
         run: npm install
 
+      - name: Start Backend
+        working-directory: backend
+        run: mvn spring-boot:run
+
       - name: Run Cypress Tests
         uses: cypress-io/github-action@v2
         with:
           working-directory: client
-          start: mvn spring-boot:run, npm start
-          wait-on: 'http://localhost:5000/recipes, http://localhost:3000'
+          start: npm start
+          wait-on: 'http://localhost:3000'
           wait-on-timeout: 120
           headless: true
           browser: chrome
 
       - name: Run Playwirght Testsc
         working-directory: client
-        run: mvn spring-boot:run && npx playwright test src/tests/e2e/*.spec.*js --workers=1 --config=src/tests/e2e/playwright.config.ts
+        run: npx playwright test src/tests/e2e/*.spec.*js --workers=1 --config=src/tests/e2e/playwright.config.ts
