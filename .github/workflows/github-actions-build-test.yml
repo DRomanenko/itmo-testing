@@ -8,7 +8,7 @@ on:
       - main
 
 env:
-  NODE_VERSION: '14'
+  NODE_VERSION: '16'
 
 jobs:
   Backend-Tests:
@@ -17,6 +17,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+
+      - name: set up JDK 17
+        uses: actions/setup-java@v2
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+          cache: 'maven'
 
       - name: Build Backend
         working-directory: backend
@@ -44,7 +51,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Set up Node.js
+      - name: Setup node ${{ env.NODE_VERSION }}
         uses: actions/setup-node@v2
         with:
           node-version: ${{ env.NODE_VERSION }}
@@ -63,7 +70,7 @@ jobs:
 
     services:
       postgres:
-        image: postgres:11
+        image: postgres:14
         env:
           POSTGRES_USER: postgres
           POSTGRES_PASSWORD: postgres
@@ -76,7 +83,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Set up Node.js
+      - name: Setup node ${{ env.NODE_VERSION }}
         uses: actions/setup-node@v2
         with:
           node-version: ${{ env.NODE_VERSION }}
@@ -99,6 +106,6 @@ jobs:
           headless: true
           browser: chrome
 
-      - name: Run Playwirght Testsc
+      - name: Run Playwirght Tests
         working-directory: client
-        run: npx playwright test src/tests/e2e/*.spec.*js --workers=1 --config=src/tests/e2e/playwright.config.ts
+        run: npx playwright test src/tests/e2e/*.spec.*js
