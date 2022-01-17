@@ -16,10 +16,19 @@ import org.springframework.http.MediaType
 import org.springframework.mock.web.MockHttpSession
 import org.springframework.test.web.servlet.get
 import org.springframework.test.web.servlet.post
+import io.qameta.allure.Epic
+import io.qameta.allure.Feature
+import io.qameta.allure.Story
+import io.qameta.allure.junit4.DisplayName
 
 @WebMvcTest(RecipesController::class)
+@Epic("Backend: Controller Tests")
+@Feature("Recipes Tests")
+@DisplayName("Backend: Controller Recipes Tests")
 class RecipesControllerTest : BaseControllerTest<RecipesService>() {
     @Test
+    @Story("Add recipe")
+    @DisplayName("Add recipe correct")
     fun `correct - add recipe`() {
         val recipe = AddRecipeRequest("name", "description")
         doNothing().whenever(service).addRecipe("user", recipe)
@@ -40,6 +49,8 @@ class RecipesControllerTest : BaseControllerTest<RecipesService>() {
     }
 
     @Test
+    @Story("Add recipe")
+    @DisplayName("Add recipe correct (exception)")
     fun `correct - add recipe throw exception`() {
         val recipe = AddRecipeRequest("name", "description")
         doThrow(RuntimeException("errorText")).whenever(service).addRecipe("user", recipe)
@@ -61,6 +72,8 @@ class RecipesControllerTest : BaseControllerTest<RecipesService>() {
     }
 
     @Test
+    @Story("Add recipe")
+    @DisplayName("Add recipe correct (unauthorized)")
     fun `correct - add recipe returns for an unauthorised user`() {
         mockMvc.post("/add-recipe") {
             contentType = MediaType.APPLICATION_JSON
@@ -77,6 +90,8 @@ class RecipesControllerTest : BaseControllerTest<RecipesService>() {
     }
 
     @Test
+    @Story("Get recipe")
+    @DisplayName("Get recipe correct")
     fun `correct - get recipes`() {
         given(service.getRecipes(null)).willReturn(
             RecipesResponse(
@@ -116,6 +131,8 @@ class RecipesControllerTest : BaseControllerTest<RecipesService>() {
     }
 
     @Test
+    @Story("Get recipe")
+    @DisplayName("Get recipe correct (exception)")
     fun `correct - get recipes throw exception`() {
         given(service.getRecipes(null)).willThrow(RuntimeException("errorText"))
         mockMvc.get("/recipes")

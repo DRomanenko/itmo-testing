@@ -16,10 +16,11 @@
     <description>backend for recipes app</description>
 
     <properties>
-        <java.version>17</java.version>
+        <java.version>11</java.version>
         <kotlin.version>1.6.10</kotlin.version>
         <kotlin.code.style>official</kotlin.code.style>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <allure-junit4.version>2.7.0</allure-junit4.version>
     </properties>
 
     <repositories>
@@ -94,6 +95,11 @@
             <groupId>org.jetbrains.kotlin</groupId>
             <artifactId>kotlin-stdlib</artifactId>
             <version>${kotlin.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-junit4</artifactId>
+            <version>${allure-junit4.version}</version>
         </dependency>
 
         <dependency>
@@ -185,6 +191,43 @@
                         <version>${kotlin.version}</version>
                     </dependency>
                 </dependencies>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>${maven-surefire-plugin.version}</version>
+                <configuration>
+                    <testFailureIgnore>false</testFailureIgnore>
+                    <argLine>-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"</argLine>
+                    <properties>
+                        <property>
+                            <name>listener</name>
+                            <value>io.qameta.allure.junit4.AllureJunit4</value>
+                        </property>
+                    </properties>
+                    <systemProperties>
+                        <property>
+                            <name>allure.results.directory</name>
+                            <value>${project.build.directory}/allure-results</value>
+                        </property>
+                    </systemProperties>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.aspectj</groupId>
+                        <artifactId>aspectjweaver</artifactId>
+                        <version>${aspectj.version}</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+            <plugin>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-maven</artifactId>
+                <version>2.9</version>
+                <configuration>
+                    <reportVersion>${allure-junit4.version}</reportVersion>
+                    <allureDownloadUrl>https://github.com/allure-framework/allure2/releases/download/${allure-junit4.version}/allure-${allure-junit4.version}.zip</allureDownloadUrl>
+                </configuration>
             </plugin>
         </plugins>
     </build>

@@ -20,12 +20,15 @@
     "sqlite": "^4.0.23",
     "sqlite3": "^5.0.2",
     "typescript": "^4.5.4",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "jest-allure": "^0.1.3",
+    "allure-playwright": "^2.0.0-beta.14",
+    "mocha-allure-reporter": "^1.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --setupFilesAfterEnv jest-allure/dist/setup --testRunner jest-jasmine2",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

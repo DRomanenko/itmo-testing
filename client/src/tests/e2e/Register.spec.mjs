@@ -11,7 +11,7 @@ test.describe('Register', () => {
         await page.goto('http://localhost:3000/register')
         await submit(page, login, password, 'Sign up')
 
-        await expect(await page.locator('h1'))
+        await expect(page.locator('h1'))
             .toHaveText('Hello, user' + random + '!These are your favourite recipes!')
 
         await page.locator('text=Sign out').click()

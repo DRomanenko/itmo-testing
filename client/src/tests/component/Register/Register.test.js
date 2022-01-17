@@ -5,6 +5,8 @@ import Register from '../../../components/Register/Register';
 
 describe('<Register/>', () => {
     it('Render Register', () => {
+        reporter.feature("Render")
+        reporter.story("Render Register page")
         let recipesService = new RecipesService('', 0);
         jest.spyOn(recipesService, 'currentUser').mockImplementation(async () => [null, null]);
         render(<Register recipesService={recipesService}/>);

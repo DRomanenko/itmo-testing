@@ -5,6 +5,8 @@ import Main from '../../../components/Main/Main';
 
 describe('<Main/>', () => {
     it('Render Main for an unauthorised user', () => {
+        reporter.feature("Render")
+        reporter.story("Render Main page")
         let recipesService = new RecipesService('', 0);
         jest.spyOn(recipesService, 'currentUser').mockImplementation(async () => [null, null]);
         render(<Main recipesService={recipesService}/>);
@@ -13,6 +15,8 @@ describe('<Main/>', () => {
     });
 
     it('Render Main for an authorised user', async () => {
+        reporter.feature("Render")
+        reporter.story("Render Main page")
         let recipesService = new RecipesService('', 0);
         jest.spyOn(recipesService, 'currentUser').mockImplementation(async () => ['user', null]);
         render(<Main recipesService={recipesService}/>);

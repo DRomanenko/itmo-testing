@@ -5,6 +5,8 @@ import RecipesService from '../../../services/RecipesService';
 
 describe('<Recipes/>', () => {
     it('Render Recipes', async () => {
+        reporter.feature("Render")
+        reporter.story("Render Recipes")
         let recipesService = new RecipesService('', 0);
         jest.spyOn(recipesService, 'currentUser').mockImplementation(async () => ['user1', null]);
         jest.spyOn(recipesService, 'getRecipes').mockImplementation(async () => [{
@@ -32,6 +34,8 @@ describe('<Recipes/>', () => {
     });
 
     it('Render empty Recipes', async () => {
+        reporter.feature("Render")
+        reporter.story("Render Recipe")
         let recipesService = new RecipesService('', 0);
         jest.spyOn(recipesService, 'currentUser').mockImplementation(async () => ['user1', null]);
         jest.spyOn(recipesService, 'getRecipes').mockImplementation(async () => [{

@@ -4,6 +4,8 @@ import Recipe from '../../../components/Recipes/Recipe';
 
 describe('<Recipe/>', () => {
     it('Render Recipe', () => {
+        reporter.feature("Render")
+        reporter.story("Render Recipe page")
         const recipe = {
             name: 'Recipe1',
             description: 'Best recipe',

@@ -5,6 +5,8 @@ import App from '../../../components/App/App';
 
 describe('<App/>', () => {
     it('Render app', async () => {
+        reporter.feature("Render")
+        reporter.story("Render app")
         let recipesService = new RecipesService('', 0);
         jest.spyOn(recipesService, 'currentUser').mockImplementation(async () => [null, null]);
         render(<App recipesService={recipesService}/>);

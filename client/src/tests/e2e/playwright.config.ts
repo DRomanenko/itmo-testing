@@ -7,6 +7,10 @@ const getBaseUrl = () => {
 }
 
 const config: PlaywrightTestConfig = {
+    reporter: [
+        ['line'],
+        ['allure-playwright']
+    ],
     use: {
         baseURL: getBaseUrl(),
         headless: true,

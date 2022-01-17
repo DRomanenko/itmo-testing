@@ -5,6 +5,8 @@ import RecipesService from '../../../services/RecipesService';
 
 describe('<Header/>', () => {
     it('Render Header for an unauthorised user', () => {
+        reporter.feature("Render")
+        reporter.story("Render Header items")
         let recipesService = new RecipesService('', 0);
         jest.spyOn(recipesService, 'currentUser').mockImplementation(async () => [null, null]);
         render(<Header recipesService={recipesService}/>);
@@ -14,6 +16,8 @@ describe('<Header/>', () => {
     });
 
     it('Render Header for an authorised user', async () => {
+        reporter.feature("Render")
+        reporter.story("Render Header items")
         let recipesService = new RecipesService('', 0);
         jest.spyOn(recipesService, 'currentUser').mockImplementation(async () => ['user', '123']);
         render(<Header recipesService={recipesService}/>);

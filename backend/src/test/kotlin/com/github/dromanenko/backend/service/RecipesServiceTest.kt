@@ -11,7 +11,14 @@ import org.mockito.kotlin.verify
 import org.mockito.kotlin.whenever
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import io.qameta.allure.Epic
+import io.qameta.allure.Feature
+import io.qameta.allure.Story
+import io.qameta.allure.junit4.DisplayName
 
+@Epic("Backend: Service Tests")
+@Feature("Recipes Tests")
+@DisplayName("Backend: Service Recipes Tests")
 class RecipesServiceTest : BaseServiceTest() {
     private val recipesService = RecipesService(
         mockUsersRepo,
@@ -19,6 +26,8 @@ class RecipesServiceTest : BaseServiceTest() {
     )
 
     @Test
+    @Story("Add recipe")
+    @DisplayName("Add recipe correct")
     fun `correct - add recipe`() {
         val login = "user"
         lateinit var recipe: Recipe
@@ -35,6 +44,8 @@ class RecipesServiceTest : BaseServiceTest() {
     }
 
     @Test
+    @Story("Get recipe")
+    @DisplayName("Get recipe correct")
     fun `correct - get recipes`() {
         whenever(mockRecipesRepo.findAll()).thenReturn(listOf(TestModels.recipe(1, 1), TestModels.recipe(2, 2)))
         assertEquals(
@@ -48,6 +59,8 @@ class RecipesServiceTest : BaseServiceTest() {
     }
 
     @Test
+    @Story("Add recipe")
+    @DisplayName("Add recipe correct (authorized)")
     fun `correct - get recipes by user`() {
         val login = "user"
         whenever(mockRecipesRepo.findAllByOwnerLogin(login))
