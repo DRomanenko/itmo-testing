@@ -41,7 +41,7 @@ class AuthSystemTest : BaseSystemTest() {
         }
 
         AllureHelper.step("Correct - logout") {
-            val logout = unlogin(cookie)
+            val logout = unlogin(cookie!!)
             assertEquals(HttpStatus.OK, logout.statusCode)
         }
 
