@@ -6,7 +6,7 @@ import io.qameta.allure.model.StatusDetails
 import io.qameta.allure.model.StepResult
 
 object AllureHelper {
-    fun <T> step(name: String, description: String = "", action: () -> T): T {
+    fun <T> step(name: String, description: String = "", action: () -> T): T? {
         var result: T? = null
         val id = name.lowercase().replace("\\s+".toRegex(), "-")
         val stepRes = StepResult().withName(name).withDescription(description)
@@ -22,6 +22,6 @@ object AllureHelper {
             it.withStatus(Status.PASSED)
         }
         Allure.getLifecycle().stopStep(id)
-        return result!!
+        return result
     }
 }
