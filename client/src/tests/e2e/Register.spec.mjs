@@ -1,5 +1,5 @@
-import {submit} from './Utils.mjs';
 import {test, expect} from '@playwright/test';
+import {submitCredentials} from "./Steps.mjs";
 
 test.describe('Register', () => {
     test('Register, Logout, Login, check session', async ({page}) => {
@@ -9,7 +9,7 @@ test.describe('Register', () => {
         const password = 'password' + random
 
         await page.goto('http://localhost:3000/register')
-        await submit(page, login, password, 'Sign up')
+        await submitCredentials(page, login, password, 'Sign up')
 
         await expect(page.locator('h1'))
             .toHaveText('Hello, user' + random + '!These are your favourite recipes!')
@@ -19,7 +19,7 @@ test.describe('Register', () => {
             .toHaveText('This is Recipe list App!')
 
         await page.click('text=Login')
-        await submit(page, login, password, 'Sign in')
+        await submitCredentials(page, login, password, 'Sign in')
         await expect(await page.locator('h1'))
             .toHaveText('Hello, user' + random + '!These are your favourite recipes!')
     })

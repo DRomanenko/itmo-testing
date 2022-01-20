@@ -1,5 +1,5 @@
 import {test, expect} from '@playwright/test';
-import {addRecipe, submit} from "./Utils.mjs";
+import {addRecipe, submitCredentials} from "./Steps.mjs";
 
 test.describe('Recipes', () => {
     test('Add Recipe', async ({page}) => {
@@ -7,7 +7,7 @@ test.describe('Recipes', () => {
         const login = 'login' + random
         const password = 'password' + random
         await page.goto('http://localhost:3000/register')
-        await submit(page, login, password)
+        await submitCredentials(page, login, password)
         const name = 'name'
         const description = 'description'
         await addRecipe(page, name + random, description + random)
