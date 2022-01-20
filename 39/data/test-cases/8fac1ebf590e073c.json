@@ -1,0 +1,191 @@
+{
+  "uid" : "8fac1ebf590e073c",
+  "name" : "Register accessibility",
+  "fullName" : "Register accessibility",
+  "historyId" : " a11y/Accessibility.spec.mjs A11y Register accessibility",
+  "time" : {
+    "start" : 1642691959956,
+    "stop" : 1642691960589,
+    "duration" : 633
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1642691959956,
+        "stop" : 1642691959991,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1642691959962,
+          "stop" : 1642691959991,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(/register)",
+      "time" : {
+        "start" : 1642691959991,
+        "stop" : 1642691960289,
+        "duration" : 298
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.evaluate",
+      "time" : {
+        "start" : 1642691960291,
+        "stop" : 1642691960348,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.evaluate",
+      "time" : {
+        "start" : 1642691960349,
+        "stop" : 1642691960497,
+        "duration" : 148
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1642691960500,
+        "stop" : 1642691960588,
+        "duration" : 88
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1642691960580,
+          "stop" : 1642691960588,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d7e89c45cfc8c258",
+      "name" : "stdout",
+      "source" : "d7e89c45cfc8c258.txt",
+      "type" : "text/plain",
+      "size" : 2378
+    }, {
+      "uid" : "3c85def35d0a2819",
+      "name" : "stderr",
+      "source" : "3c85def35d0a2819.txt",
+      "type" : "text/plain",
+      "size" : 92
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "a11y/Accessibility.spec.mjs"
+  }, {
+    "name" : "subSuite",
+    "value" : "A11y"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "ce4774b6b6d51d82",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/38//#testresult/ce4774b6b6d51d82",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642691032319,
+          "stop" : 1642691032949,
+          "duration" : 630
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8fac1ebf590e073c.json",
+  "parameterValues" : [ ]
+}

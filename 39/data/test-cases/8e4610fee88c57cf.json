@@ -1,0 +1,72 @@
+{
+  "uid" : "8e4610fee88c57cf",
+  "name" : "Render app",
+  "fullName" : "<App/>.Render app",
+  "historyId" : "f71d54d4d0859d2a3408d3416894901e",
+  "time" : {
+    "start" : 1642691742837,
+    "stop" : 1642691742871,
+    "duration" : 34
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Render"
+  }, {
+    "name" : "story",
+    "value" : "Render app"
+  }, {
+    "name" : "suite",
+    "value" : "<App/>"
+  }, {
+    "name" : "testClass",
+    "value" : "<App/>"
+  }, {
+    "name" : "testMethod",
+    "value" : "Render app"
+  }, {
+    "name" : "package",
+    "value" : "<App/>"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "3e35bcbbfa529cd",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/38//#testresult/3e35bcbbfa529cd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642690812632,
+          "stop" : 1642690812668,
+          "duration" : 36
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8e4610fee88c57cf.json",
+  "parameterValues" : [ ]
+}

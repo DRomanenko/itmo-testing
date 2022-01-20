@@ -1,0 +1,72 @@
+{
+  "uid" : "43a99750e87ae49b",
+  "name" : "Render Greeting for an unauthorised user",
+  "fullName" : "<Greeting/>.Render Greeting for an unauthorised user",
+  "historyId" : "80606a3ad12f245ee555d995bf090acd",
+  "time" : {
+    "start" : 1642691740599,
+    "stop" : 1642691740622,
+    "duration" : 23
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Render"
+  }, {
+    "name" : "story",
+    "value" : "Render Greeting page"
+  }, {
+    "name" : "suite",
+    "value" : "<Greeting/>"
+  }, {
+    "name" : "testClass",
+    "value" : "<Greeting/>"
+  }, {
+    "name" : "testMethod",
+    "value" : "Render Greeting for an unauthorised user"
+  }, {
+    "name" : "package",
+    "value" : "<Greeting/>"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "6bd63149cd450fe6",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/38//#testresult/6bd63149cd450fe6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642690810301,
+          "stop" : 1642690810321,
+          "duration" : 20
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "43a99750e87ae49b.json",
+  "parameterValues" : [ ]
+}

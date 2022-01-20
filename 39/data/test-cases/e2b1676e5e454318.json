@@ -1,0 +1,75 @@
+{
+  "uid" : "e2b1676e5e454318",
+  "name" : "currentUser",
+  "fullName" : "<RecipesService/>.currentUser",
+  "historyId" : "9ca11e4c21c7a7dbbe14f12068da3a7e",
+  "time" : {
+    "start" : 1642691741110,
+    "stop" : 1642691741115,
+    "duration" : 5
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client: Unit Tests"
+  }, {
+    "name" : "feature",
+    "value" : "Recipes Service"
+  }, {
+    "name" : "story",
+    "value" : "Get current user"
+  }, {
+    "name" : "suite",
+    "value" : "<RecipesService/>"
+  }, {
+    "name" : "testClass",
+    "value" : "<RecipesService/>"
+  }, {
+    "name" : "testMethod",
+    "value" : "currentUser"
+  }, {
+    "name" : "package",
+    "value" : "<RecipesService/>"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "8520ecbfc1324cdc",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/38//#testresult/8520ecbfc1324cdc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642690810655,
+          "stop" : 1642690810668,
+          "duration" : 13
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e2b1676e5e454318.json",
+  "parameterValues" : [ ]
+}

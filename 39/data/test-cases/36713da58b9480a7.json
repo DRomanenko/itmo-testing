@@ -1,0 +1,72 @@
+{
+  "uid" : "36713da58b9480a7",
+  "name" : "Render Recipe",
+  "fullName" : "<Recipe/>.Render Recipe",
+  "historyId" : "b69946ff5ba8e13d0505243ecec67521",
+  "time" : {
+    "start" : 1642691743201,
+    "stop" : 1642691743220,
+    "duration" : 19
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Render"
+  }, {
+    "name" : "story",
+    "value" : "Render Recipe page"
+  }, {
+    "name" : "suite",
+    "value" : "<Recipe/>"
+  }, {
+    "name" : "testClass",
+    "value" : "<Recipe/>"
+  }, {
+    "name" : "testMethod",
+    "value" : "Render Recipe"
+  }, {
+    "name" : "package",
+    "value" : "<Recipe/>"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "140bf97be7840404",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/38//#testresult/140bf97be7840404",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642690813002,
+          "stop" : 1642690813021,
+          "duration" : 19
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "36713da58b9480a7.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,72 @@
+{
+  "uid" : "620a2cba1391503",
+  "name" : "Render Login",
+  "fullName" : "<Login/>.Render Login",
+  "historyId" : "36bea6ebf97bd25890dd36086bc533f",
+  "time" : {
+    "start" : 1642691742334,
+    "stop" : 1642691742364,
+    "duration" : 30
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Render"
+  }, {
+    "name" : "story",
+    "value" : "Render Login page"
+  }, {
+    "name" : "suite",
+    "value" : "<Login/>"
+  }, {
+    "name" : "testClass",
+    "value" : "<Login/>"
+  }, {
+    "name" : "testMethod",
+    "value" : "Render Login"
+  }, {
+    "name" : "package",
+    "value" : "<Login/>"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c8916f1bf426af2c",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/38//#testresult/c8916f1bf426af2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642690811875,
+          "stop" : 1642690811908,
+          "duration" : 33
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "620a2cba1391503.json",
+  "parameterValues" : [ ]
+}
