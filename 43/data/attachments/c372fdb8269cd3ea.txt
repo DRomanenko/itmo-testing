@@ -1,0 +1,4 @@
+{
+  name: 'a11y violation summary',
+  message: '4 accessibility violations were detected'
+}
