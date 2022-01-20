@@ -1,0 +1,99 @@
+{
+  "uid" : "7037aad65d418290",
+  "name" : "Render Recipe",
+  "fullName" : "<Recipe/>.Render Recipe",
+  "historyId" : "b69946ff5ba8e13d0505243ecec67521",
+  "time" : {
+    "start" : 1642694702917,
+    "stop" : 1642694702939,
+    "duration" : 22
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Render"
+  }, {
+    "name" : "story",
+    "value" : "Render Recipe page"
+  }, {
+    "name" : "suite",
+    "value" : "<Recipe/>"
+  }, {
+    "name" : "testClass",
+    "value" : "<Recipe/>"
+  }, {
+    "name" : "testMethod",
+    "value" : "Render Recipe"
+  }, {
+    "name" : "package",
+    "value" : "<Recipe/>"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "6fa12c48db7d4d85",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/41//#testresult/6fa12c48db7d4d85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642693968286,
+          "stop" : 1642693968309,
+          "duration" : 23
+        }
+      }, {
+        "uid" : "1397c287631d6716",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/40//#testresult/1397c287631d6716",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642693190823,
+          "stop" : 1642693190842,
+          "duration" : 19
+        }
+      }, {
+        "uid" : "36713da58b9480a7",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/39//#testresult/36713da58b9480a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642691743201,
+          "stop" : 1642691743220,
+          "duration" : 19
+        }
+      }, {
+        "uid" : "140bf97be7840404",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/38//#testresult/140bf97be7840404",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642690813002,
+          "stop" : 1642690813021,
+          "duration" : 19
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7037aad65d418290.json",
+  "parameterValues" : [ ]
+}

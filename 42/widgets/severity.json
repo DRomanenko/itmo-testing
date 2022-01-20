@@ -1,0 +1,221 @@
+[ {
+  "uid" : "504660954de1cd31",
+  "name" : "getRecipes",
+  "time" : {
+    "start" : 1642694700635,
+    "stop" : 1642694700637,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "403f73cd809d2248",
+  "name" : "Render empty Recipes",
+  "time" : {
+    "start" : 1642694698756,
+    "stop" : 1642694698762,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b5cbfaf642328b",
+  "name" : "Render Register",
+  "time" : {
+    "start" : 1642694701478,
+    "stop" : 1642694701503,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e47559428b0c12c",
+  "name" : "Render Header for an authorised user",
+  "time" : {
+    "start" : 1642694699721,
+    "stop" : 1642694699735,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2d7a58c2472bb8b",
+  "name" : "Login accessibility",
+  "time" : {
+    "start" : 1642694930740,
+    "stop" : 1642694931346,
+    "duration" : 606
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e592e8190cc0361",
+  "name" : "Render app",
+  "time" : {
+    "start" : 1642694702375,
+    "stop" : 1642694702416,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23abd46a97034c39",
+  "name" : "Render Greeting for an authorised user",
+  "time" : {
+    "start" : 1642694700295,
+    "stop" : 1642694700306,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65edc88780499981",
+  "name" : "Render Main for an authorised user",
+  "time" : {
+    "start" : 1642694701025,
+    "stop" : 1642694701090,
+    "duration" : 65
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8cf6a708c0b37e2b",
+  "name" : "Render Header for an unauthorised user",
+  "time" : {
+    "start" : 1642694699698,
+    "stop" : 1642694699721,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e18172c172b69ee",
+  "name" : "Render AddRecipe for an unauthorised user",
+  "time" : {
+    "start" : 1642694699229,
+    "stop" : 1642694699258,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8967e1a9f9020257",
+  "name" : "Render AddRecipe for an authorised user",
+  "time" : {
+    "start" : 1642694699258,
+    "stop" : 1642694699276,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ec8fad832f55a8c",
+  "name" : "Render Main for an unauthorised user",
+  "time" : {
+    "start" : 1642694701003,
+    "stop" : 1642694701025,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "34bfa561a331d743",
+  "name" : "Home accessibility",
+  "time" : {
+    "start" : 1642694929401,
+    "stop" : 1642694930740,
+    "duration" : 1339
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "350202256d6b688f",
+  "name" : "Register, Logout, Login, check session",
+  "time" : {
+    "start" : 1642694933122,
+    "stop" : 1642694934191,
+    "duration" : 1069
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "206153bcf858bc34",
+  "name" : "Register accessibility",
+  "time" : {
+    "start" : 1642694931348,
+    "stop" : 1642694931961,
+    "duration" : 613
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a625b91cfe4ef579",
+  "name" : "Render Recipes",
+  "time" : {
+    "start" : 1642694698696,
+    "stop" : 1642694698756,
+    "duration" : 60
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7037aad65d418290",
+  "name" : "Render Recipe",
+  "time" : {
+    "start" : 1642694702917,
+    "stop" : 1642694702939,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fba0c2b41c928ce3",
+  "name" : "Add Recipe",
+  "time" : {
+    "start" : 1642694931964,
+    "stop" : 1642694933119,
+    "duration" : 1155
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "305db95745ccd0b5",
+  "name" : "Render Login",
+  "time" : {
+    "start" : 1642694701865,
+    "stop" : 1642694701892,
+    "duration" : 27
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4bde92435f85f9f3",
+  "name" : "Render Greeting for an unauthorised user",
+  "time" : {
+    "start" : 1642694700271,
+    "stop" : 1642694700295,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2eaccd33ed63b7fe",
+  "name" : "currentUser",
+  "time" : {
+    "start" : 1642694700631,
+    "stop" : 1642694700635,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3226e237a30f4465",
+  "name" : "Render NotFound",
+  "time" : {
+    "start" : 1642694703358,
+    "stop" : 1642694703374,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
