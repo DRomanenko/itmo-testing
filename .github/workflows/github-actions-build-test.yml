@@ -266,12 +266,12 @@ jobs:
 
       - name: Post the link to the report
         uses: Sibz/github-status-action@v1
-        if: ${{ github.event_name == 'push' }}
+        if: ${{ github.event_name == 'pull_request' }}
         with:
           authToken: ${{secrets.GITHUB_TOKEN}}
           context: 'Test report'
           state: 'success'
-          sha: ${{ github.event.push.head.sha }}
+          sha: ${{ github.event.pull_request.head.sha }}
           target_url: https://dromanenko.github.io/itmo-testing/selenide/${{ github.run_number }}
 
       - name: Delete allure reports from artifacts
