@@ -1,0 +1,81 @@
+{
+  "uid" : "776fcea77e4114b8",
+  "name" : "Render AddRecipe for an authorised user",
+  "fullName" : "<AddRecipe/>.Render AddRecipe for an authorised user",
+  "historyId" : "51363bacfdc7b7762dc84f17e61bffd6",
+  "time" : {
+    "start" : 1642693187167,
+    "stop" : 1642693187186,
+    "duration" : 19
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Render"
+  }, {
+    "name" : "story",
+    "value" : "Render add recipe"
+  }, {
+    "name" : "suite",
+    "value" : "<AddRecipe/>"
+  }, {
+    "name" : "testClass",
+    "value" : "<AddRecipe/>"
+  }, {
+    "name" : "testMethod",
+    "value" : "Render AddRecipe for an authorised user"
+  }, {
+    "name" : "package",
+    "value" : "<AddRecipe/>"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "2182f625fd1bfab4",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/39//#testresult/2182f625fd1bfab4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642691739747,
+          "stop" : 1642691739776,
+          "duration" : 29
+        }
+      }, {
+        "uid" : "cbe8c4cd8f335991",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/38//#testresult/cbe8c4cd8f335991",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642690809314,
+          "stop" : 1642690809333,
+          "duration" : 19
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "776fcea77e4114b8.json",
+  "parameterValues" : [ ]
+}

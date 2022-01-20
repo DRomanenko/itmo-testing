@@ -1,0 +1,81 @@
+{
+  "uid" : "e1dd89697cdb6655",
+  "name" : "Render Greeting for an authorised user",
+  "fullName" : "<Greeting/>.Render Greeting for an authorised user",
+  "historyId" : "ef0fb42b37c1e1a39cd49c0af0928052",
+  "time" : {
+    "start" : 1642693188161,
+    "stop" : 1642693188171,
+    "duration" : 10
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Render"
+  }, {
+    "name" : "story",
+    "value" : "Render Greeting page"
+  }, {
+    "name" : "suite",
+    "value" : "<Greeting/>"
+  }, {
+    "name" : "testClass",
+    "value" : "<Greeting/>"
+  }, {
+    "name" : "testMethod",
+    "value" : "Render Greeting for an authorised user"
+  }, {
+    "name" : "package",
+    "value" : "<Greeting/>"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "397e0f399fbd084c",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/39//#testresult/397e0f399fbd084c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642691740622,
+          "stop" : 1642691740638,
+          "duration" : 16
+        }
+      }, {
+        "uid" : "518702f192532175",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/38//#testresult/518702f192532175",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642690810321,
+          "stop" : 1642690810332,
+          "duration" : 11
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e1dd89697cdb6655.json",
+  "parameterValues" : [ ]
+}

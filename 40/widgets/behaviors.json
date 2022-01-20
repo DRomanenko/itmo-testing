@@ -1,0 +1,26 @@
+{
+  "total" : 7,
+  "items" : [ {
+    "uid" : "ecc101c9f92bc618faabbd7d63fb618b",
+    "name" : "Render",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 11
+    }
+  }, {
+    "uid" : "337346b52b7b0c6cd651d6513720bc2c",
+    "name" : "Client: Unit Tests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

@@ -1,0 +1,84 @@
+{
+  "uid" : "cfe745ce763265de",
+  "name" : "getRecipes",
+  "fullName" : "<RecipesService/>.getRecipes",
+  "historyId" : "4db90f8e3bf3138753482b75e478a3f",
+  "time" : {
+    "start" : 1642693188508,
+    "stop" : 1642693188509,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client: Unit Tests"
+  }, {
+    "name" : "feature",
+    "value" : "Recipes Service"
+  }, {
+    "name" : "story",
+    "value" : "Get current recipes"
+  }, {
+    "name" : "suite",
+    "value" : "<RecipesService/>"
+  }, {
+    "name" : "testClass",
+    "value" : "<RecipesService/>"
+  }, {
+    "name" : "testMethod",
+    "value" : "getRecipes"
+  }, {
+    "name" : "package",
+    "value" : "<RecipesService/>"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "3eea143d85f52b66",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/39//#testresult/3eea143d85f52b66",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642691741115,
+          "stop" : 1642691741116,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "baf13345e53ec107",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/38//#testresult/baf13345e53ec107",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642690810668,
+          "stop" : 1642690810669,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "cfe745ce763265de.json",
+  "parameterValues" : [ ]
+}
