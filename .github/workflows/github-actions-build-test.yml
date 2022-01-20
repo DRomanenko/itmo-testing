@@ -217,12 +217,6 @@ jobs:
 
     needs: [ Backend-Tests, Frontend-Tests, End-To-End-Tests, Selenide-Tests ]
     steps:
-      - name: Download backend allure results
-        uses: actions/download-artifact@v2
-        with:
-          name: backend-allure-results
-          path: allure-results
-
       - name: Download client allure results
         uses: actions/download-artifact@v2
         with:
