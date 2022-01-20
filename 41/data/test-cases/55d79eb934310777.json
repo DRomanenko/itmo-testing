@@ -1,0 +1,90 @@
+{
+  "uid" : "55d79eb934310777",
+  "name" : "Render Main for an unauthorised user",
+  "fullName" : "<Main/>.Render Main for an unauthorised user",
+  "historyId" : "6b018e12644607b5c4f273012ff3b2eb",
+  "time" : {
+    "start" : 1642693966243,
+    "stop" : 1642693966273,
+    "duration" : 30
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Render"
+  }, {
+    "name" : "story",
+    "value" : "Render Main page"
+  }, {
+    "name" : "suite",
+    "value" : "<Main/>"
+  }, {
+    "name" : "testClass",
+    "value" : "<Main/>"
+  }, {
+    "name" : "testMethod",
+    "value" : "Render Main for an unauthorised user"
+  }, {
+    "name" : "package",
+    "value" : "<Main/>"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "a99d9ad67a57b32a",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/40//#testresult/a99d9ad67a57b32a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642693188891,
+          "stop" : 1642693188912,
+          "duration" : 21
+        }
+      }, {
+        "uid" : "9755e69d20c0c54b",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/39//#testresult/9755e69d20c0c54b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642691741480,
+          "stop" : 1642691741501,
+          "duration" : 21
+        }
+      }, {
+        "uid" : "150118f7ad345c8b",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/38//#testresult/150118f7ad345c8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642690811033,
+          "stop" : 1642690811054,
+          "duration" : 21
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "55d79eb934310777.json",
+  "parameterValues" : [ ]
+}

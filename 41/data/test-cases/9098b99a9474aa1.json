@@ -1,0 +1,209 @@
+{
+  "uid" : "9098b99a9474aa1",
+  "name" : "Register accessibility",
+  "fullName" : "Register accessibility",
+  "historyId" : " a11y/Accessibility.spec.mjs A11y Register accessibility",
+  "time" : {
+    "start" : 1642694207930,
+    "stop" : 1642694208659,
+    "duration" : 729
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1642694207930,
+        "stop" : 1642694207970,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1642694207936,
+          "stop" : 1642694207970,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(/register)",
+      "time" : {
+        "start" : 1642694207971,
+        "stop" : 1642694208301,
+        "duration" : 330
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.evaluate",
+      "time" : {
+        "start" : 1642694208304,
+        "stop" : 1642694208371,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.evaluate",
+      "time" : {
+        "start" : 1642694208371,
+        "stop" : 1642694208549,
+        "duration" : 178
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1642694208550,
+        "stop" : 1642694208659,
+        "duration" : 109
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1642694208649,
+          "stop" : 1642694208658,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "61900b2d107fda9b",
+      "name" : "stdout",
+      "source" : "61900b2d107fda9b.txt",
+      "type" : "text/plain",
+      "size" : 2378
+    }, {
+      "uid" : "8e87bb77e6e366c",
+      "name" : "stderr",
+      "source" : "8e87bb77e6e366c.txt",
+      "type" : "text/plain",
+      "size" : 92
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "a11y/Accessibility.spec.mjs"
+  }, {
+    "name" : "subSuite",
+    "value" : "A11y"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "6152d80598da3e03",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/40//#testresult/6152d80598da3e03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642693397035,
+          "stop" : 1642693397704,
+          "duration" : 669
+        }
+      }, {
+        "uid" : "8fac1ebf590e073c",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/39//#testresult/8fac1ebf590e073c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642691959956,
+          "stop" : 1642691960589,
+          "duration" : 633
+        }
+      }, {
+        "uid" : "ce4774b6b6d51d82",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/38//#testresult/ce4774b6b6d51d82",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642691032319,
+          "stop" : 1642691032949,
+          "duration" : 630
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9098b99a9474aa1.json",
+  "parameterValues" : [ ]
+}

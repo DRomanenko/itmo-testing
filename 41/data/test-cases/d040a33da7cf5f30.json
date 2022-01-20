@@ -1,0 +1,90 @@
+{
+  "uid" : "d040a33da7cf5f30",
+  "name" : "Render empty Recipes",
+  "fullName" : "<Recipes/>.Render empty Recipes",
+  "historyId" : "e3095cd20b9a25a67ca1ce3860fc4dd5",
+  "time" : {
+    "start" : 1642693963587,
+    "stop" : 1642693963594,
+    "duration" : 7
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Render"
+  }, {
+    "name" : "story",
+    "value" : "Render Recipe"
+  }, {
+    "name" : "suite",
+    "value" : "<Recipes/>"
+  }, {
+    "name" : "testClass",
+    "value" : "<Recipes/>"
+  }, {
+    "name" : "testMethod",
+    "value" : "Render empty Recipes"
+  }, {
+    "name" : "package",
+    "value" : "<Recipes/>"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "aca43f6b832668f5",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/40//#testresult/aca43f6b832668f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642693186670,
+          "stop" : 1642693186676,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "1d0f016b6c4534f6",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/39//#testresult/1d0f016b6c4534f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642691739265,
+          "stop" : 1642691739271,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "b812945a48f61a92",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/38//#testresult/b812945a48f61a92",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642690808822,
+          "stop" : 1642690808828,
+          "duration" : 6
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d040a33da7cf5f30.json",
+  "parameterValues" : [ ]
+}

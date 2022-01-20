@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://DRomanenko.github.io/itmo-testing",
+  "buildOrder" : 41,
+  "buildName" : "GitHub Actions Run #1724271643",
+  "buildUrl" : "https://github.com/DRomanenko/itmo-testing/actions/runs/1724271643",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://DRomanenko.github.io/itmo-testing/41/"
+} ]
