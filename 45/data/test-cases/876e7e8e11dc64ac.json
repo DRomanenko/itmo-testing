@@ -1,0 +1,407 @@
+{
+  "uid" : "876e7e8e11dc64ac",
+  "name" : "Register, Logout, Login, check session",
+  "fullName" : "Register, Logout, Login, check session",
+  "historyId" : " Register.spec.mjs Register Register, Logout, Login, check session",
+  "time" : {
+    "start" : 1642699549596,
+    "stop" : 1642699551189,
+    "duration" : 1593
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1642699549596,
+        "stop" : 1642699549648,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1642699549604,
+          "stop" : 1642699549647,
+          "duration" : 43
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(http://localhost:3000/register)",
+      "time" : {
+        "start" : 1642699549650,
+        "stop" : 1642699550015,
+        "duration" : 365
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(input[name='login'])",
+      "time" : {
+        "start" : 1642699550016,
+        "stop" : 1642699550058,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(input[name='password'])",
+      "time" : {
+        "start" : 1642699550058,
+        "stop" : 1642699550078,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toHaveValue",
+      "time" : {
+        "start" : 1642699550078,
+        "stop" : 1642699550086,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click(input[type='submit'])",
+      "time" : {
+        "start" : 1642699550087,
+        "stop" : 1642699550177,
+        "duration" : 90
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toHaveText",
+      "time" : {
+        "start" : 1642699550178,
+        "stop" : 1642699550410,
+        "duration" : 232
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click(text=Sign out)",
+      "time" : {
+        "start" : 1642699550411,
+        "stop" : 1642699550481,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toHaveText",
+      "time" : {
+        "start" : 1642699550481,
+        "stop" : 1642699550600,
+        "duration" : 119
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(text=Login)",
+      "time" : {
+        "start" : 1642699550601,
+        "stop" : 1642699550657,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(input[name='login'])",
+      "time" : {
+        "start" : 1642699550658,
+        "stop" : 1642699550758,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(input[name='password'])",
+      "time" : {
+        "start" : 1642699550758,
+        "stop" : 1642699550772,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toHaveValue",
+      "time" : {
+        "start" : 1642699550773,
+        "stop" : 1642699550786,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click(input[type='submit'])",
+      "time" : {
+        "start" : 1642699550787,
+        "stop" : 1642699550887,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toHaveText",
+      "time" : {
+        "start" : 1642699550887,
+        "stop" : 1642699551089,
+        "duration" : 202
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1642699551089,
+        "stop" : 1642699551188,
+        "duration" : 99
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1642699551179,
+          "stop" : 1642699551188,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 18,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "Register.spec.mjs"
+  }, {
+    "name" : "subSuite",
+    "value" : "Register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "40e17ba60730914a",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/44//#testresult/40e17ba60730914a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642697838597,
+          "stop" : 1642697839790,
+          "duration" : 1193
+        }
+      }, {
+        "uid" : "4597e0dd74208657",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/43//#testresult/4597e0dd74208657",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642697234767,
+          "stop" : 1642697236096,
+          "duration" : 1329
+        }
+      }, {
+        "uid" : "736a8f918ee340ed",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/42//#testresult/736a8f918ee340ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642696229420,
+          "stop" : 1642696230647,
+          "duration" : 1227
+        }
+      }, {
+        "uid" : "350202256d6b688f",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/42//#testresult/350202256d6b688f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642694933122,
+          "stop" : 1642694934191,
+          "duration" : 1069
+        }
+      }, {
+        "uid" : "b5b10aae1556eec5",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/41//#testresult/b5b10aae1556eec5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642694209917,
+          "stop" : 1642694211393,
+          "duration" : 1476
+        }
+      }, {
+        "uid" : "c7436c8b29272da0",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/40//#testresult/c7436c8b29272da0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642693398860,
+          "stop" : 1642693400192,
+          "duration" : 1332
+        }
+      }, {
+        "uid" : "423dd723fae66c05",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/39//#testresult/423dd723fae66c05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642691961741,
+          "stop" : 1642691963037,
+          "duration" : 1296
+        }
+      }, {
+        "uid" : "c68d7c6a98aec0bc",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/38//#testresult/c68d7c6a98aec0bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642691034123,
+          "stop" : 1642691035369,
+          "duration" : 1246
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "876e7e8e11dc64ac.json",
+  "parameterValues" : [ ]
+}

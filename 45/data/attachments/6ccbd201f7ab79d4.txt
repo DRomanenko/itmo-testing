@@ -1,0 +1,8 @@
+┌─────────┬────────────────────────┬────────────┬───────────────────────────────────────────────────────────────────────────────────────────────────────────┬───────┐
+│ (index) │           id           │   impact   │                                                description                                                │ nodes │
+├─────────┼────────────────────────┼────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┼───────┤
+│    0    │    'color-contrast'    │ 'serious'  │ 'Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds' │   2   │
+│    1    │  'landmark-one-main'   │ 'moderate' │                                'Ensures the document has a main landmark'                                 │   1   │
+│    2    │ 'page-has-heading-one' │ 'moderate' │            'Ensure that the page, or at least one of its frames contains a level-one heading'             │   1   │
+│    3    │        'region'        │ 'moderate' │                           'Ensures all page content is contained by landmarks'                            │   4   │
+└─────────┴────────────────────────┴────────────┴───────────────────────────────────────────────────────────────────────────────────────────────────────────┴───────┘

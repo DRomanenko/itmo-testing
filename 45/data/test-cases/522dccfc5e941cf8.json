@@ -1,0 +1,254 @@
+{
+  "uid" : "522dccfc5e941cf8",
+  "name" : "Home accessibility",
+  "fullName" : "Home accessibility",
+  "historyId" : " a11y/Accessibility.spec.mjs A11y Home accessibility",
+  "time" : {
+    "start" : 1642699544828,
+    "stop" : 1642699546587,
+    "duration" : 1759
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1642699544830,
+        "stop" : 1642699545710,
+        "duration" : 880
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1642699545494,
+          "stop" : 1642699545709,
+          "duration" : 215
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(/)",
+      "time" : {
+        "start" : 1642699545712,
+        "stop" : 1642699546203,
+        "duration" : 491
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.evaluate",
+      "time" : {
+        "start" : 1642699546208,
+        "stop" : 1642699546289,
+        "duration" : 81
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.evaluate",
+      "time" : {
+        "start" : 1642699546291,
+        "stop" : 1642699546467,
+        "duration" : 176
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1642699546473,
+        "stop" : 1642699546586,
+        "duration" : 113
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1642699546571,
+          "stop" : 1642699546585,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "755496ca6ed92db2",
+      "name" : "stdout",
+      "source" : "755496ca6ed92db2.txt",
+      "type" : "text/plain",
+      "size" : 1350
+    }, {
+      "uid" : "4de5db109b5b7487",
+      "name" : "stderr",
+      "source" : "4de5db109b5b7487.txt",
+      "type" : "text/plain",
+      "size" : 92
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "a11y/Accessibility.spec.mjs"
+  }, {
+    "name" : "subSuite",
+    "value" : "A11y"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "323ad2014ec1ea8e",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/44//#testresult/323ad2014ec1ea8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642697834898,
+          "stop" : 1642697836265,
+          "duration" : 1367
+        }
+      }, {
+        "uid" : "3c2001b55b99bf13",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/43//#testresult/3c2001b55b99bf13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642697230922,
+          "stop" : 1642697232308,
+          "duration" : 1386
+        }
+      }, {
+        "uid" : "5cfff57432f12af5",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/42//#testresult/5cfff57432f12af5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642696225756,
+          "stop" : 1642696227107,
+          "duration" : 1351
+        }
+      }, {
+        "uid" : "34bfa561a331d743",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/42//#testresult/34bfa561a331d743",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642694929401,
+          "stop" : 1642694930740,
+          "duration" : 1339
+        }
+      }, {
+        "uid" : "1bb34cb37b66477d",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/41//#testresult/1bb34cb37b66477d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642694205673,
+          "stop" : 1642694207195,
+          "duration" : 1522
+        }
+      }, {
+        "uid" : "bbd7d33e7292c9be",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/40//#testresult/bbd7d33e7292c9be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642693395042,
+          "stop" : 1642693396416,
+          "duration" : 1374
+        }
+      }, {
+        "uid" : "a4be738fe240bcf8",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/39//#testresult/a4be738fe240bcf8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642691957919,
+          "stop" : 1642691959311,
+          "duration" : 1392
+        }
+      }, {
+        "uid" : "c3107a1a2cf911fb",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/38//#testresult/c3107a1a2cf911fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642691030324,
+          "stop" : 1642691031681,
+          "duration" : 1357
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "522dccfc5e941cf8.json",
+  "parameterValues" : [ ]
+}
