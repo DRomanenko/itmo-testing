@@ -4,6 +4,11 @@
   "reportName" : "Allure Report with history",
   "data" : { }
 }, {
+  "buildOrder" : 42,
+  "reportUrl" : "https://DRomanenko.github.io/itmo-testing/42/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
   "buildOrder" : 41,
   "reportUrl" : "https://DRomanenko.github.io/itmo-testing/41/",
   "reportName" : "Allure Report with history",

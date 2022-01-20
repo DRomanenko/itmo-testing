@@ -3,6 +3,13 @@
   "reportUrl" : "https://DRomanenko.github.io/itmo-testing/42/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "duration" : 224689
+  }
+}, {
+  "buildOrder" : 42,
+  "reportUrl" : "https://DRomanenko.github.io/itmo-testing/42/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "duration" : 235495
   }
 }, {

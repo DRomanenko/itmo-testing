@@ -1,0 +1,108 @@
+{
+  "uid" : "ef66b8b475aa26a5",
+  "name" : "Render Register",
+  "fullName" : "<Register/>.Render Register",
+  "historyId" : "1716d0ef1c7b8d2c5923ef8890c7768a",
+  "time" : {
+    "start" : 1642696009516,
+    "stop" : 1642696009548,
+    "duration" : 32
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Render"
+  }, {
+    "name" : "story",
+    "value" : "Render Register page"
+  }, {
+    "name" : "suite",
+    "value" : "<Register/>"
+  }, {
+    "name" : "testClass",
+    "value" : "<Register/>"
+  }, {
+    "name" : "testMethod",
+    "value" : "Render Register"
+  }, {
+    "name" : "package",
+    "value" : "<Register/>"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "4b5cbfaf642328b",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/42//#testresult/4b5cbfaf642328b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642694701478,
+          "stop" : 1642694701503,
+          "duration" : 25
+        }
+      }, {
+        "uid" : "adf9a473beb8f47f",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/41//#testresult/adf9a473beb8f47f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642693966775,
+          "stop" : 1642693966806,
+          "duration" : 31
+        }
+      }, {
+        "uid" : "709d415f6be67126",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/40//#testresult/709d415f6be67126",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642693189361,
+          "stop" : 1642693189387,
+          "duration" : 26
+        }
+      }, {
+        "uid" : "4235fd74da370d0f",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/39//#testresult/4235fd74da370d0f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642691741931,
+          "stop" : 1642691741957,
+          "duration" : 26
+        }
+      }, {
+        "uid" : "9634ed53a3509a36",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/38//#testresult/9634ed53a3509a36",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642690811480,
+          "stop" : 1642690811516,
+          "duration" : 36
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ef66b8b475aa26a5.json",
+  "parameterValues" : [ ]
+}
