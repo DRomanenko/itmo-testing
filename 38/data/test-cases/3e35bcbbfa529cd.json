@@ -1,0 +1,52 @@
+{
+  "uid" : "3e35bcbbfa529cd",
+  "name" : "Render app",
+  "fullName" : "<App/>.Render app",
+  "historyId" : "f71d54d4d0859d2a3408d3416894901e",
+  "time" : {
+    "start" : 1642690812632,
+    "stop" : 1642690812668,
+    "duration" : 36
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Render"
+  }, {
+    "name" : "story",
+    "value" : "Render app"
+  }, {
+    "name" : "suite",
+    "value" : "<App/>"
+  }, {
+    "name" : "testClass",
+    "value" : "<App/>"
+  }, {
+    "name" : "testMethod",
+    "value" : "Render app"
+  }, {
+    "name" : "package",
+    "value" : "<App/>"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3e35bcbbfa529cd.json",
+  "parameterValues" : [ ]
+}

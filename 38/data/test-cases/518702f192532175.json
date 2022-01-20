@@ -1,0 +1,52 @@
+{
+  "uid" : "518702f192532175",
+  "name" : "Render Greeting for an authorised user",
+  "fullName" : "<Greeting/>.Render Greeting for an authorised user",
+  "historyId" : "ef0fb42b37c1e1a39cd49c0af0928052",
+  "time" : {
+    "start" : 1642690810321,
+    "stop" : 1642690810332,
+    "duration" : 11
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Render"
+  }, {
+    "name" : "story",
+    "value" : "Render Greeting page"
+  }, {
+    "name" : "suite",
+    "value" : "<Greeting/>"
+  }, {
+    "name" : "testClass",
+    "value" : "<Greeting/>"
+  }, {
+    "name" : "testMethod",
+    "value" : "Render Greeting for an authorised user"
+  }, {
+    "name" : "package",
+    "value" : "<Greeting/>"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "518702f192532175.json",
+  "parameterValues" : [ ]
+}

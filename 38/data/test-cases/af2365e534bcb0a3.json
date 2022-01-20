@@ -1,0 +1,52 @@
+{
+  "uid" : "af2365e534bcb0a3",
+  "name" : "Render NotFound",
+  "fullName" : "<NotFound/>.Render NotFound",
+  "historyId" : "222c60fe457b539877a0f3b39ea4007a",
+  "time" : {
+    "start" : 1642690813343,
+    "stop" : 1642690813359,
+    "duration" : 16
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Render"
+  }, {
+    "name" : "story",
+    "value" : "Render NotFound page"
+  }, {
+    "name" : "suite",
+    "value" : "<NotFound/>"
+  }, {
+    "name" : "testClass",
+    "value" : "<NotFound/>"
+  }, {
+    "name" : "testMethod",
+    "value" : "Render NotFound"
+  }, {
+    "name" : "package",
+    "value" : "<NotFound/>"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "af2365e534bcb0a3.json",
+  "parameterValues" : [ ]
+}

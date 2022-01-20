@@ -1,0 +1,52 @@
+{
+  "uid" : "b812945a48f61a92",
+  "name" : "Render empty Recipes",
+  "fullName" : "<Recipes/>.Render empty Recipes",
+  "historyId" : "e3095cd20b9a25a67ca1ce3860fc4dd5",
+  "time" : {
+    "start" : 1642690808822,
+    "stop" : 1642690808828,
+    "duration" : 6
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Render"
+  }, {
+    "name" : "story",
+    "value" : "Render Recipe"
+  }, {
+    "name" : "suite",
+    "value" : "<Recipes/>"
+  }, {
+    "name" : "testClass",
+    "value" : "<Recipes/>"
+  }, {
+    "name" : "testMethod",
+    "value" : "Render empty Recipes"
+  }, {
+    "name" : "package",
+    "value" : "<Recipes/>"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b812945a48f61a92.json",
+  "parameterValues" : [ ]
+}

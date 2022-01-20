@@ -1,0 +1,55 @@
+{
+  "uid" : "baf13345e53ec107",
+  "name" : "getRecipes",
+  "fullName" : "<RecipesService/>.getRecipes",
+  "historyId" : "4db90f8e3bf3138753482b75e478a3f",
+  "time" : {
+    "start" : 1642690810668,
+    "stop" : 1642690810669,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Client: Unit Tests"
+  }, {
+    "name" : "feature",
+    "value" : "Recipes Service"
+  }, {
+    "name" : "story",
+    "value" : "Get current recipes"
+  }, {
+    "name" : "suite",
+    "value" : "<RecipesService/>"
+  }, {
+    "name" : "testClass",
+    "value" : "<RecipesService/>"
+  }, {
+    "name" : "testMethod",
+    "value" : "getRecipes"
+  }, {
+    "name" : "package",
+    "value" : "<RecipesService/>"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "baf13345e53ec107.json",
+  "parameterValues" : [ ]
+}

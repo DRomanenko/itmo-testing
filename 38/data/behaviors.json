@@ -1,0 +1,355 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Render",
+    "children" : [ {
+      "name" : "Render Recipes",
+      "children" : [ {
+        "name" : "Render Recipes",
+        "uid" : "b7840a08267dcbfc",
+        "parentUid" : "cbc25dd30f3e1e8df73550fbb8de1512",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642690808761,
+          "stop" : 1642690808822,
+          "duration" : 61
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cbc25dd30f3e1e8df73550fbb8de1512"
+    }, {
+      "name" : "Render Recipe",
+      "children" : [ {
+        "name" : "Render empty Recipes",
+        "uid" : "b812945a48f61a92",
+        "parentUid" : "f6f4784fe6866db8662e978abdb4541f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642690808822,
+          "stop" : 1642690808828,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f6f4784fe6866db8662e978abdb4541f"
+    }, {
+      "name" : "Render add recipe",
+      "children" : [ {
+        "name" : "Render AddRecipe for an unauthorised user",
+        "uid" : "23b50b0031048eee",
+        "parentUid" : "f7c3093277562ea033c1596811c8ffec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642690809285,
+          "stop" : 1642690809314,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Render AddRecipe for an authorised user",
+        "uid" : "cbe8c4cd8f335991",
+        "parentUid" : "f7c3093277562ea033c1596811c8ffec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642690809314,
+          "stop" : 1642690809333,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f7c3093277562ea033c1596811c8ffec"
+    }, {
+      "name" : "Render Header items",
+      "children" : [ {
+        "name" : "Render Header for an unauthorised user",
+        "uid" : "f3ad6f885461b34e",
+        "parentUid" : "ea4377e6ca509bc42544f7b9771321af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642690809758,
+          "stop" : 1642690809788,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Render Header for an authorised user",
+        "uid" : "d842f88547b9551b",
+        "parentUid" : "ea4377e6ca509bc42544f7b9771321af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642690809788,
+          "stop" : 1642690809810,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ea4377e6ca509bc42544f7b9771321af"
+    }, {
+      "name" : "Render Greeting page",
+      "children" : [ {
+        "name" : "Render Greeting for an unauthorised user",
+        "uid" : "6bd63149cd450fe6",
+        "parentUid" : "24c9ca84624f7622a81d873c990c4fde",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642690810301,
+          "stop" : 1642690810321,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Render Greeting for an authorised user",
+        "uid" : "518702f192532175",
+        "parentUid" : "24c9ca84624f7622a81d873c990c4fde",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642690810321,
+          "stop" : 1642690810332,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "24c9ca84624f7622a81d873c990c4fde"
+    }, {
+      "name" : "Render Main page",
+      "children" : [ {
+        "name" : "Render Main for an unauthorised user",
+        "uid" : "150118f7ad345c8b",
+        "parentUid" : "22cd676db2e57af8beecb9664f5a1f84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642690811033,
+          "stop" : 1642690811054,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Render Main for an authorised user",
+        "uid" : "e9ed8ec857fd2716",
+        "parentUid" : "22cd676db2e57af8beecb9664f5a1f84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642690811054,
+          "stop" : 1642690811116,
+          "duration" : 62
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "22cd676db2e57af8beecb9664f5a1f84"
+    }, {
+      "name" : "Render Register page",
+      "children" : [ {
+        "name" : "Render Register",
+        "uid" : "9634ed53a3509a36",
+        "parentUid" : "f9753d231b9d0957d78a719fb2cb0d3c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642690811480,
+          "stop" : 1642690811516,
+          "duration" : 36
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f9753d231b9d0957d78a719fb2cb0d3c"
+    }, {
+      "name" : "Render Login page",
+      "children" : [ {
+        "name" : "Render Login",
+        "uid" : "c8916f1bf426af2c",
+        "parentUid" : "4bbfb24cbe6f7930b23f499d333bf5b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642690811875,
+          "stop" : 1642690811908,
+          "duration" : 33
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4bbfb24cbe6f7930b23f499d333bf5b0"
+    }, {
+      "name" : "Render app",
+      "children" : [ {
+        "name" : "Render app",
+        "uid" : "3e35bcbbfa529cd",
+        "parentUid" : "8b47e490262ac7923be9b66ef92fa4fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642690812632,
+          "stop" : 1642690812668,
+          "duration" : 36
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8b47e490262ac7923be9b66ef92fa4fb"
+    }, {
+      "name" : "Render Recipe page",
+      "children" : [ {
+        "name" : "Render Recipe",
+        "uid" : "140bf97be7840404",
+        "parentUid" : "fba994ad985855c9dd97c1561ea0d3c6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642690813002,
+          "stop" : 1642690813021,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fba994ad985855c9dd97c1561ea0d3c6"
+    }, {
+      "name" : "Render NotFound page",
+      "children" : [ {
+        "name" : "Render NotFound",
+        "uid" : "af2365e534bcb0a3",
+        "parentUid" : "ae0f5d776e9b39de6920528a5086f31a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642690813343,
+          "stop" : 1642690813359,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ae0f5d776e9b39de6920528a5086f31a"
+    } ],
+    "uid" : "ecc101c9f92bc618faabbd7d63fb618b"
+  }, {
+    "name" : "Client: Unit Tests",
+    "children" : [ {
+      "name" : "Recipes Service",
+      "children" : [ {
+        "name" : "Get current user",
+        "children" : [ {
+          "name" : "currentUser",
+          "uid" : "8520ecbfc1324cdc",
+          "parentUid" : "080290a55a33040d1330cb01697d1b07",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642690810655,
+            "stop" : 1642690810668,
+            "duration" : 13
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "080290a55a33040d1330cb01697d1b07"
+      }, {
+        "name" : "Get current recipes",
+        "children" : [ {
+          "name" : "getRecipes",
+          "uid" : "baf13345e53ec107",
+          "parentUid" : "3d912b86fa07a49c5b6c95b1769b32df",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642690810668,
+            "stop" : 1642690810669,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3d912b86fa07a49c5b6c95b1769b32df"
+      } ],
+      "uid" : "07ef6ea87b1b7fc9a5b9f9dc132d1e33"
+    } ],
+    "uid" : "337346b52b7b0c6cd651d6513720bc2c"
+  }, {
+    "name" : "Home accessibility",
+    "uid" : "c3107a1a2cf911fb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642691030324,
+      "stop" : 1642691031681,
+      "duration" : 1357
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login accessibility",
+    "uid" : "5f807ba306c09461",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642691031680,
+      "stop" : 1642691032318,
+      "duration" : 638
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Register accessibility",
+    "uid" : "ce4774b6b6d51d82",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642691032319,
+      "stop" : 1642691032949,
+      "duration" : 630
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Add Recipe",
+    "uid" : "861e3d9c268f05fc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642691032951,
+      "stop" : 1642691034119,
+      "duration" : 1168
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Register, Logout, Login, check session",
+    "uid" : "c68d7c6a98aec0bc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642691034123,
+      "stop" : 1642691035369,
+      "duration" : 1246
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}

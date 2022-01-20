@@ -1,0 +1,52 @@
+{
+  "uid" : "140bf97be7840404",
+  "name" : "Render Recipe",
+  "fullName" : "<Recipe/>.Render Recipe",
+  "historyId" : "b69946ff5ba8e13d0505243ecec67521",
+  "time" : {
+    "start" : 1642690813002,
+    "stop" : 1642690813021,
+    "duration" : 19
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Render"
+  }, {
+    "name" : "story",
+    "value" : "Render Recipe page"
+  }, {
+    "name" : "suite",
+    "value" : "<Recipe/>"
+  }, {
+    "name" : "testClass",
+    "value" : "<Recipe/>"
+  }, {
+    "name" : "testMethod",
+    "value" : "Render Recipe"
+  }, {
+    "name" : "package",
+    "value" : "<Recipe/>"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "140bf97be7840404.json",
+  "parameterValues" : [ ]
+}

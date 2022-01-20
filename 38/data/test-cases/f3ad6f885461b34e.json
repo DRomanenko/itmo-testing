@@ -1,0 +1,52 @@
+{
+  "uid" : "f3ad6f885461b34e",
+  "name" : "Render Header for an unauthorised user",
+  "fullName" : "<Header/>.Render Header for an unauthorised user",
+  "historyId" : "50a34d3599fc9961342e379acbf1c61b",
+  "time" : {
+    "start" : 1642690809758,
+    "stop" : 1642690809788,
+    "duration" : 30
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Render"
+  }, {
+    "name" : "story",
+    "value" : "Render Header items"
+  }, {
+    "name" : "suite",
+    "value" : "<Header/>"
+  }, {
+    "name" : "testClass",
+    "value" : "<Header/>"
+  }, {
+    "name" : "testMethod",
+    "value" : "Render Header for an unauthorised user"
+  }, {
+    "name" : "package",
+    "value" : "<Header/>"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f3ad6f885461b34e.json",
+  "parameterValues" : [ ]
+}

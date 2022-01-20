@@ -1,0 +1,52 @@
+{
+  "uid" : "c8916f1bf426af2c",
+  "name" : "Render Login",
+  "fullName" : "<Login/>.Render Login",
+  "historyId" : "36bea6ebf97bd25890dd36086bc533f",
+  "time" : {
+    "start" : 1642690811875,
+    "stop" : 1642690811908,
+    "duration" : 33
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Render"
+  }, {
+    "name" : "story",
+    "value" : "Render Login page"
+  }, {
+    "name" : "suite",
+    "value" : "<Login/>"
+  }, {
+    "name" : "testClass",
+    "value" : "<Login/>"
+  }, {
+    "name" : "testMethod",
+    "value" : "Render Login"
+  }, {
+    "name" : "package",
+    "value" : "<Login/>"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c8916f1bf426af2c.json",
+  "parameterValues" : [ ]
+}

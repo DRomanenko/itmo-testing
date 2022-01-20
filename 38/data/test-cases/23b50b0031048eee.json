@@ -1,0 +1,52 @@
+{
+  "uid" : "23b50b0031048eee",
+  "name" : "Render AddRecipe for an unauthorised user",
+  "fullName" : "<AddRecipe/>.Render AddRecipe for an unauthorised user",
+  "historyId" : "c5a96b8c6e1535938f7e542cda60b0bc",
+  "time" : {
+    "start" : 1642690809285,
+    "stop" : 1642690809314,
+    "duration" : 29
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Render"
+  }, {
+    "name" : "story",
+    "value" : "Render add recipe"
+  }, {
+    "name" : "suite",
+    "value" : "<AddRecipe/>"
+  }, {
+    "name" : "testClass",
+    "value" : "<AddRecipe/>"
+  }, {
+    "name" : "testMethod",
+    "value" : "Render AddRecipe for an unauthorised user"
+  }, {
+    "name" : "package",
+    "value" : "<AddRecipe/>"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "23b50b0031048eee.json",
+  "parameterValues" : [ ]
+}

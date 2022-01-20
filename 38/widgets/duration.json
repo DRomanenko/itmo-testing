@@ -1,0 +1,221 @@
+[ {
+  "uid" : "cbe8c4cd8f335991",
+  "name" : "Render AddRecipe for an authorised user",
+  "time" : {
+    "start" : 1642690809314,
+    "stop" : 1642690809333,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6bd63149cd450fe6",
+  "name" : "Render Greeting for an unauthorised user",
+  "time" : {
+    "start" : 1642690810301,
+    "stop" : 1642690810321,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f807ba306c09461",
+  "name" : "Login accessibility",
+  "time" : {
+    "start" : 1642691031680,
+    "stop" : 1642691032318,
+    "duration" : 638
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af2365e534bcb0a3",
+  "name" : "Render NotFound",
+  "time" : {
+    "start" : 1642690813343,
+    "stop" : 1642690813359,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c68d7c6a98aec0bc",
+  "name" : "Register, Logout, Login, check session",
+  "time" : {
+    "start" : 1642691034123,
+    "stop" : 1642691035369,
+    "duration" : 1246
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "150118f7ad345c8b",
+  "name" : "Render Main for an unauthorised user",
+  "time" : {
+    "start" : 1642690811033,
+    "stop" : 1642690811054,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "baf13345e53ec107",
+  "name" : "getRecipes",
+  "time" : {
+    "start" : 1642690810668,
+    "stop" : 1642690810669,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "518702f192532175",
+  "name" : "Render Greeting for an authorised user",
+  "time" : {
+    "start" : 1642690810321,
+    "stop" : 1642690810332,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce4774b6b6d51d82",
+  "name" : "Register accessibility",
+  "time" : {
+    "start" : 1642691032319,
+    "stop" : 1642691032949,
+    "duration" : 630
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8520ecbfc1324cdc",
+  "name" : "currentUser",
+  "time" : {
+    "start" : 1642690810655,
+    "stop" : 1642690810668,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e35bcbbfa529cd",
+  "name" : "Render app",
+  "time" : {
+    "start" : 1642690812632,
+    "stop" : 1642690812668,
+    "duration" : 36
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d842f88547b9551b",
+  "name" : "Render Header for an authorised user",
+  "time" : {
+    "start" : 1642690809788,
+    "stop" : 1642690809810,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9634ed53a3509a36",
+  "name" : "Render Register",
+  "time" : {
+    "start" : 1642690811480,
+    "stop" : 1642690811516,
+    "duration" : 36
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23b50b0031048eee",
+  "name" : "Render AddRecipe for an unauthorised user",
+  "time" : {
+    "start" : 1642690809285,
+    "stop" : 1642690809314,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7840a08267dcbfc",
+  "name" : "Render Recipes",
+  "time" : {
+    "start" : 1642690808761,
+    "stop" : 1642690808822,
+    "duration" : 61
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9ed8ec857fd2716",
+  "name" : "Render Main for an authorised user",
+  "time" : {
+    "start" : 1642690811054,
+    "stop" : 1642690811116,
+    "duration" : 62
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "140bf97be7840404",
+  "name" : "Render Recipe",
+  "time" : {
+    "start" : 1642690813002,
+    "stop" : 1642690813021,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3107a1a2cf911fb",
+  "name" : "Home accessibility",
+  "time" : {
+    "start" : 1642691030324,
+    "stop" : 1642691031681,
+    "duration" : 1357
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8916f1bf426af2c",
+  "name" : "Render Login",
+  "time" : {
+    "start" : 1642690811875,
+    "stop" : 1642690811908,
+    "duration" : 33
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3ad6f885461b34e",
+  "name" : "Render Header for an unauthorised user",
+  "time" : {
+    "start" : 1642690809758,
+    "stop" : 1642690809788,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b812945a48f61a92",
+  "name" : "Render empty Recipes",
+  "time" : {
+    "start" : 1642690808822,
+    "stop" : 1642690808828,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "861e3d9c268f05fc",
+  "name" : "Add Recipe",
+  "time" : {
+    "start" : 1642691032951,
+    "stop" : 1642691034119,
+    "duration" : 1168
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

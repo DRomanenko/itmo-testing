@@ -1,0 +1,52 @@
+{
+  "uid" : "e9ed8ec857fd2716",
+  "name" : "Render Main for an authorised user",
+  "fullName" : "<Main/>.Render Main for an authorised user",
+  "historyId" : "33a25a5d9f67719f388e76333d396ee4",
+  "time" : {
+    "start" : 1642690811054,
+    "stop" : 1642690811116,
+    "duration" : 62
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Render"
+  }, {
+    "name" : "story",
+    "value" : "Render Main page"
+  }, {
+    "name" : "suite",
+    "value" : "<Main/>"
+  }, {
+    "name" : "testClass",
+    "value" : "<Main/>"
+  }, {
+    "name" : "testMethod",
+    "value" : "Render Main for an authorised user"
+  }, {
+    "name" : "package",
+    "value" : "<Main/>"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e9ed8ec857fd2716.json",
+  "parameterValues" : [ ]
+}
