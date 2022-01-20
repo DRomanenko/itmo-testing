@@ -50,7 +50,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: backend-allure-results
-          path: spring-backend/target/allure-results
+          path: backend/target/allure-results
 
   Frontend-Tests:
     name: Frontend Tests
@@ -197,7 +197,7 @@ jobs:
         uses: Xotabu4/selenoid-github-action@v2
         with:
           selenoid-start-arguments: |
-            --args "-timeout 100s" --browsers="chrome;firefox"
+            --args "-timeout 150s" --browsers="chrome;firefox"
 
       - name: Run Selenide Tests
         working-directory: selenide

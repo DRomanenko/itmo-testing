@@ -119,12 +119,37 @@ cd backend && mvn generate-resources
 ### Требования
 ### Main часть:
 
-- [ ] Написать e2e тесты, используя Selenide.
+- [X] Написать e2e тесты, используя Selenide.
 
 ### Advanced часть:
 
-- [ ] Настроить запуск тестов с Selenoid.
+- [X] Настроить запуск тестов с Selenoid.
 
 ### Bonus часть:
 - [ ] Настроить генерацию отчетов с Allure report, сделав полный сетап в GitHub: e2e тесты с selenide запускаются с использованием Selenoid на разных окружениях(браузерах) параллельно и собирают отчет с помощью Allure Report.
-- [ ] Написать статью как собрать такой сетап.
+- [X] Написать статью как собрать такой сетап.
+
+### Тесты
+
+- [**backend**](backend) - `port-5000`
+```bash
+cd backend && mvn spring-boot:run
+```
+- [**client**](client) - `port-3000`
+```bash
+cd client && yarn start
+```
+- [**selenide**](selenide) - `default browser 'chrome'`
+```bash
+cd selenide && gradle test
+# change browser 
+#> gradle test --Dselenide.browser="<value>"
+```
+
+### Workflow
+
+- [**Build & Test**](.github/workflows/github-actions-build-test.yml) - build app and run tests
+
+### Статья
+
+- [**Настройка тестов**](selenide/README.md) - статья по настройке подобных тестов
