@@ -1,0 +1,335 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "<Recipes/>",
+    "children" : [ {
+      "name" : "Render Recipes",
+      "uid" : "7e8bceaa6807421",
+      "parentUid" : "3ebde1179aac56b1d231bb6602dbd7ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642697626314,
+        "stop" : 1642697626387,
+        "duration" : 73
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Render empty Recipes",
+      "uid" : "77cbd8e908137c0f",
+      "parentUid" : "3ebde1179aac56b1d231bb6602dbd7ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642697626387,
+        "stop" : 1642697626395,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3ebde1179aac56b1d231bb6602dbd7ec"
+  }, {
+    "name" : "<AddRecipe/>",
+    "children" : [ {
+      "name" : "Render AddRecipe for an unauthorised user",
+      "uid" : "ba5ad0aa84457a5b",
+      "parentUid" : "082909804da7785df0de0a55064d8802",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642697626972,
+        "stop" : 1642697627009,
+        "duration" : 37
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Render AddRecipe for an authorised user",
+      "uid" : "4983e58057848c16",
+      "parentUid" : "082909804da7785df0de0a55064d8802",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642697627009,
+        "stop" : 1642697627032,
+        "duration" : 23
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "082909804da7785df0de0a55064d8802"
+  }, {
+    "name" : "<Header/>",
+    "children" : [ {
+      "name" : "Render Header for an unauthorised user",
+      "uid" : "ac45b3005850a787",
+      "parentUid" : "cd6aeb5a967195a59ca9ac509402034d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642697627582,
+        "stop" : 1642697627623,
+        "duration" : 41
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Render Header for an authorised user",
+      "uid" : "f7610e1e2182235",
+      "parentUid" : "cd6aeb5a967195a59ca9ac509402034d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642697627623,
+        "stop" : 1642697627646,
+        "duration" : 23
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cd6aeb5a967195a59ca9ac509402034d"
+  }, {
+    "name" : "<Greeting/>",
+    "children" : [ {
+      "name" : "Render Greeting for an unauthorised user",
+      "uid" : "1f0c70840b38dbf2",
+      "parentUid" : "02ed8642d01dca9841e59269394a1ed6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642697628270,
+        "stop" : 1642697628296,
+        "duration" : 26
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Render Greeting for an authorised user",
+      "uid" : "605dd87b81bfeb6c",
+      "parentUid" : "02ed8642d01dca9841e59269394a1ed6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642697628296,
+        "stop" : 1642697628318,
+        "duration" : 22
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "02ed8642d01dca9841e59269394a1ed6"
+  }, {
+    "name" : "<RecipesService/>",
+    "children" : [ {
+      "name" : "currentUser",
+      "uid" : "123494c452d89775",
+      "parentUid" : "c647b3b880e40db82a459aec06759601",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642697628734,
+        "stop" : 1642697628739,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "getRecipes",
+      "uid" : "4bff02226c49bd44",
+      "parentUid" : "c647b3b880e40db82a459aec06759601",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642697628739,
+        "stop" : 1642697628741,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c647b3b880e40db82a459aec06759601"
+  }, {
+    "name" : "<Main/>",
+    "children" : [ {
+      "name" : "Render Main for an unauthorised user",
+      "uid" : "935f30b10a06d6b0",
+      "parentUid" : "3c8e117dfecdd41add6d8df0e3fdc0b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642697629212,
+        "stop" : 1642697629238,
+        "duration" : 26
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Render Main for an authorised user",
+      "uid" : "499e79e7c2bede4c",
+      "parentUid" : "3c8e117dfecdd41add6d8df0e3fdc0b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642697629238,
+        "stop" : 1642697629325,
+        "duration" : 87
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3c8e117dfecdd41add6d8df0e3fdc0b4"
+  }, {
+    "name" : "<Register/>",
+    "children" : [ {
+      "name" : "Render Register",
+      "uid" : "36808829ee8356ec",
+      "parentUid" : "28b4c3989200f0c4475cea30a5ca90de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642697629797,
+        "stop" : 1642697629828,
+        "duration" : 31
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "28b4c3989200f0c4475cea30a5ca90de"
+  }, {
+    "name" : "<Login/>",
+    "children" : [ {
+      "name" : "Render Login",
+      "uid" : "5cadc0625c2786e",
+      "parentUid" : "303db8e3a14777d443540267b76b3ae4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642697630292,
+        "stop" : 1642697630326,
+        "duration" : 34
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "303db8e3a14777d443540267b76b3ae4"
+  }, {
+    "name" : "<App/>",
+    "children" : [ {
+      "name" : "Render app",
+      "uid" : "c531333d86ac1b47",
+      "parentUid" : "27b104a20927f18932ff1d60e98e98bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642697631236,
+        "stop" : 1642697631282,
+        "duration" : 46
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "27b104a20927f18932ff1d60e98e98bd"
+  }, {
+    "name" : "<Recipe/>",
+    "children" : [ {
+      "name" : "Render Recipe",
+      "uid" : "bbc5ad688ef28771",
+      "parentUid" : "fe6e20829c4361c886b4169cd890ccba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642697631688,
+        "stop" : 1642697631712,
+        "duration" : 24
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "fe6e20829c4361c886b4169cd890ccba"
+  }, {
+    "name" : "<NotFound/>",
+    "children" : [ {
+      "name" : "Render NotFound",
+      "uid" : "7231d59d9f6a8aea",
+      "parentUid" : "2c2f1e95375d4410a0536ccf5af2c9aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642697632100,
+        "stop" : 1642697632119,
+        "duration" : 19
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2c2f1e95375d4410a0536ccf5af2c9aa"
+  }, {
+    "name" : "Home accessibility",
+    "uid" : "323ad2014ec1ea8e",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642697834898,
+      "stop" : 1642697836265,
+      "duration" : 1367
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login accessibility",
+    "uid" : "b8cacec8e743f4f8",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642697836266,
+      "stop" : 1642697836889,
+      "duration" : 623
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Register accessibility",
+    "uid" : "e78660ae0c725965",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642697836889,
+      "stop" : 1642697837490,
+      "duration" : 601
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Add Recipe",
+    "uid" : "a8019e69b976a97c",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642697837493,
+      "stop" : 1642697838594,
+      "duration" : 1101
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Register, Logout, Login, check session",
+    "uid" : "40e17ba60730914a",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642697838597,
+      "stop" : 1642697839790,
+      "duration" : 1193
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "packages"
+}

@@ -1,0 +1,338 @@
+{
+  "uid" : "a8019e69b976a97c",
+  "name" : "Add Recipe",
+  "fullName" : "Add Recipe",
+  "historyId" : " Recipes.spec.mjs Recipes Add Recipe",
+  "time" : {
+    "start" : 1642697837493,
+    "stop" : 1642697838594,
+    "duration" : 1101
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1642697837494,
+        "stop" : 1642697837527,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1642697837498,
+          "stop" : 1642697837527,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(http://localhost:3000/register)",
+      "time" : {
+        "start" : 1642697837528,
+        "stop" : 1642697837791,
+        "duration" : 263
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(input[name='login'])",
+      "time" : {
+        "start" : 1642697837792,
+        "stop" : 1642697837831,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(input[name='password'])",
+      "time" : {
+        "start" : 1642697837832,
+        "stop" : 1642697837845,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click(input[type='submit'])",
+      "time" : {
+        "start" : 1642697837845,
+        "stop" : 1642697837919,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(text=Add recipe)",
+      "time" : {
+        "start" : 1642697837920,
+        "stop" : 1642697838089,
+        "duration" : 169
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(input[name='name'])",
+      "time" : {
+        "start" : 1642697838089,
+        "stop" : 1642697838186,
+        "duration" : 97
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(textarea[name='description'])",
+      "time" : {
+        "start" : 1642697838186,
+        "stop" : 1642697838215,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click(button)",
+      "time" : {
+        "start" : 1642697838215,
+        "stop" : 1642697838257,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toHaveText",
+      "time" : {
+        "start" : 1642697838260,
+        "stop" : 1642697838501,
+        "duration" : 241
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toHaveText",
+      "time" : {
+        "start" : 1642697838501,
+        "stop" : 1642697838506,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1642697838506,
+        "stop" : 1642697838594,
+        "duration" : 88
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1642697838586,
+          "stop" : 1642697838593,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 14,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "Recipes.spec.mjs"
+  }, {
+    "name" : "subSuite",
+    "value" : "Recipes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "7e7df3fd8ed12871",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/43//#testresult/7e7df3fd8ed12871",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642697233630,
+          "stop" : 1642697234764,
+          "duration" : 1134
+        }
+      }, {
+        "uid" : "3407972fd226062f",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/42//#testresult/3407972fd226062f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642696228339,
+          "stop" : 1642696229416,
+          "duration" : 1077
+        }
+      }, {
+        "uid" : "fba0c2b41c928ce3",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/42//#testresult/fba0c2b41c928ce3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642694931964,
+          "stop" : 1642694933119,
+          "duration" : 1155
+        }
+      }, {
+        "uid" : "7ba5d15905599e92",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/41//#testresult/7ba5d15905599e92",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642694208663,
+          "stop" : 1642694209913,
+          "duration" : 1250
+        }
+      }, {
+        "uid" : "1acc079ac2356938",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/40//#testresult/1acc079ac2356938",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642693397707,
+          "stop" : 1642693398856,
+          "duration" : 1149
+        }
+      }, {
+        "uid" : "34c585f690225646",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/39//#testresult/34c585f690225646",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642691960592,
+          "stop" : 1642691961739,
+          "duration" : 1147
+        }
+      }, {
+        "uid" : "861e3d9c268f05fc",
+        "reportUrl" : "https://DRomanenko.github.io/itmo-testing/38//#testresult/861e3d9c268f05fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642691032951,
+          "stop" : 1642691034119,
+          "duration" : 1168
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a8019e69b976a97c.json",
+  "parameterValues" : [ ]
+}
