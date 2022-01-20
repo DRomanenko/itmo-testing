@@ -208,4 +208,83 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: selenide-allure-results-${{ matrix.browser }}
-          path: selenide-tests/build/allure-results
+          path: selenide/build/allure-results
+
+  Upload-Allure-Report:
+    name: Upload Allure Report
+    runs-on: ubuntu-latest
+    if: always()
+
+    needs: [ Backend-Tests, Frontend-Tests, End-To-End-Tests, Selenide-Tests ]
+    steps:
+      - name: Download backend allure results
+        uses: actions/download-artifact@v2
+        with:
+          name: backend-allure-results
+          path: allure-results
+
+      - name: Download client allure results
+        uses: actions/download-artifact@v2
+        with:
+          name: client-allure-results
+          path: allure-results
+
+      - name: Download e2e allure results
+        uses: actions/download-artifact@v2
+        with:
+          name: e2e-allure-results
+          path: allure-results
+
+      - name: Download selenide chrome allure results
+        uses: actions/download-artifact@v2
+        with:
+          name: selenide-allure-results-chrome
+          path: allure-results
+
+      - name: Download selenide firefox allure results
+        uses: actions/download-artifact@v2
+        with:
+          name: selenide-allure-results-firefox
+          path: allure-results
+
+      - name: Get Allure history
+        uses: actions/checkout@v2
+        continue-on-error: true
+        with:
+          ref: allure-reports-pages
+          path: allure-reports-pages
+
+      - name: Create allure report
+        uses: simple-elf/allure-report-action@v1.5
+        id: allure-report
+        with:
+          allure_results: allure-results
+          gh_pages: allure-reports-pages
+          allure_report: allure-report
+          allure_history: allure-history
+
+      - name: Deploy report to Github Pages
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_BRANCH: allure-reports-pages
+          PUBLISH_DIR: allure-history
+
+      - name: Post the link to the report
+        uses: Sibz/github-status-action@v1
+        if: ${{ github.event_name == 'push' }}
+        with:
+          authToken: ${{secrets.GITHUB_TOKEN}}
+          context: 'Test report'
+          state: 'success'
+          sha: ${{ github.event.push.head.sha }}
+          target_url: https://dromanenko.github.io/itmo-testing/selenide/${{ github.run_number }}
+
+      - name: Delete allure reports from artifacts
+        uses: geekyeggo/delete-artifact@v1
+        with:
+          name: |
+            backend-allure-results
+            client-allure-results
+            e2e-allure-results
+            test-results
