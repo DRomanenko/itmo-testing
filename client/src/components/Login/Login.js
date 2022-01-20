@@ -33,12 +33,12 @@ export default class Login extends Base {
 
                     <div className='form-text'>
                         <div className={'label'}>Login</div>
-                        <input type='text' name='login' className='form-control' placeholder='Login'/>
+                        <input type='text' id="login" name='login' className='form-control' placeholder='Login'/>
                     </div>
 
                     <div className='form-text'>
                         <div className={'label'}>Password</div>
-                        <input type='password' name='password' className='form-control' placeholder='Password'/>
+                        <input type='password' id="password" name='password' className='form-control' placeholder='Password'/>
                     </div>
 
                     <input type='submit' className={'login-button'} value='Sign in'/>

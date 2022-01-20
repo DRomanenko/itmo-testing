@@ -1,0 +1,68 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10'
+    }
+}
+
+plugins {
+    id 'io.qameta.allure' version '2.6.0'
+}
+
+apply plugin: "kotlin"
+
+repositories {
+    mavenCentral()
+}
+
+group 'com.github.dromanenko'
+version '1.0-SNAPSHOT'
+
+
+def allureVersion = '2.17.2'
+def junitVersion = '5.8.2'
+
+dependencies {
+    testImplementation 'org.jetbrains.kotlin:kotlin-stdlib:1.6.0'
+    testImplementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0'
+    testImplementation 'com.codeborne:selenide:6.1.2'
+
+    testImplementation("org.junit.jupiter:junit-jupiter-api:$junitVersion")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:$junitVersion")
+
+    testRuntimeOnly("io.qameta.allure:allure-junit5:$allureVersion")
+    testCompileOnly("io.qameta.allure:allure-java-commons:$allureVersion")
+    testCompileOnly("io.qameta.allure:allure-attachments:$allureVersion")
+    testCompileOnly("io.qameta.allure:allure-generator:$allureVersion")
+    testCompileOnly("io.qameta.allure:allure-httpclient:$allureVersion")
+}
+
+allure {
+    autoconfigure = true
+    version = '2.17.2'
+    reportDir = file("$projectDir/build/allure-report")
+    resultsDir = file("$projectDir/build/allure-results")
+    downloadLinkFormat = 'https://github.com/allure-framework/allure2/releases/download/%s/allure-%<s.zip'
+}
+
+task libs(type: Sync) {
+    from configurations.compileClasspath
+    from configurations.testRuntimeClasspath
+    into "$buildDir/lib"
+}
+
+compileKotlin.dependsOn libs
+
+test {
+    useJUnitPlatform()
+    systemProperties = [
+            'file.encoding'                : 'UTF-8',
+            'selenide.headless'            : 'true',
+            'selenide.browser'             : System.getProperty("selenide.browser") ?: 'chrome',
+            'selenide.baseUrl'             : System.getProperty("selenide.baseUrl") ?: 'http://localhost:3000',
+            'selenide.driverManagerEnabled': System.getProperty("selenide.driverManagerEnabled") ?: 'true',
+            'allure.results.directory'     : "$projectDir/build/allure-results"
+    ]
+}

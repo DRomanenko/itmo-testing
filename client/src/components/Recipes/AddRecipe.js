@@ -55,12 +55,12 @@ export default class AddRecipe extends Base {
 
                     <div className='form-text'>
                         <div className={'label'}>Name</div>
-                        <input type='text' name='name' className='form-control' placeholder='Name'
+                        <input type='text' id='name' name='name' className='form-control' placeholder='Name'
                                onChange={this.changeName}/>
                     </div>
                     <div className='form-text'>
                         <div className={'label'}>Description</div>
-                        <textarea name='description' className='form-control' placeholder='Description'
+                        <textarea id='description' name='description' className='form-control' placeholder='Description'
                                   onChange={this.changeDescription}/>
                     </div>
 

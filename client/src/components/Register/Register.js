@@ -32,11 +32,11 @@ export default class Register extends Base {
                       action={process.env.REACT_APP_SERVER_HOST + ':' + process.env.REACT_APP_SERVER_PORT + '/register'}>
                     <div className='form-text'>
                         <div className={'label'}>Login</div>
-                        <input type='text' name='login' className='form-control' placeholder='Login'/>
+                        <input type='text' id='login' name='login' className='form-control' placeholder='Login'/>
                     </div>
                     <div className='form-text'>
                         <div className={'label'}>Password</div>
-                        <input type='password' name='password' className='form-control' placeholder='Password'/>
+                        <input type='password' id='password' name='password' className='form-control' placeholder='Password'/>
                     </div>
 
                     <input type='submit' className={'login-button'} value='Sign up'/>

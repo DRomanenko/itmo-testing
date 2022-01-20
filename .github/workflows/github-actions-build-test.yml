@@ -45,6 +45,13 @@ jobs:
           name: docs.pdf
           path: index.pdf
 
+      - name: Upload Allure Reports Artifact
+        if: always()
+        uses: actions/upload-artifact@v2
+        with:
+          name: backend-allure-results
+          path: spring-backend/target/allure-results
+
   Frontend-Tests:
     name: Frontend Tests
     runs-on: ubuntu-latest
@@ -64,6 +71,13 @@ jobs:
       - name: Run Frontend Tests
         working-directory: client
         run: npm test
+
+      - name: Upload Allure Reports Artifact
+        if: always()
+        uses: actions/upload-artifact@v2
+        with:
+          name: client-allure-results
+          path: client/allure-results
 
   End-To-End-Tests:
     name: End-to-End Tests
@@ -117,3 +131,81 @@ jobs:
       - name: Run Playwirght Tests
         working-directory: client
         run: npx playwright test src/tests/e2e/*.spec.*js
+
+      - name: Upload Allure Reports Artifact
+        if: always()
+        uses: actions/upload-artifact@v2
+        with:
+          name: e2e-allure-results
+          path: client/allure-results
+
+  Selenide-Tests:
+    name: Selenide Tests - ${{ matrix.browser }}
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        browser: [ chrome, firefox ]
+
+    services:
+      postgres:
+        image: postgres:14
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: postgres
+        ports:
+          - 5432:5432
+        options: --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5
+    needs: [ Backend-Tests, Frontend-Tests ]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js (v${{ env.NODE_VERSION }})
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Install dependencies
+        working-directory: client
+        run: npm install
+
+      - name: Setup JDK-${{ env.JDK_VERSION }}
+        uses: actions/setup-java@v2
+        with:
+          distribution: 'temurin'
+          java-version: ${{ env.JDK_VERSION }}
+          cache: 'maven'
+
+      - name: Start Backend
+        working-directory: backend
+        run: mvn spring-boot:run &
+
+      - name: Run Cypress Tests
+        uses: cypress-io/github-action@v2
+        with:
+          browser: chrome
+          working-directory: client
+          start: npm start
+          wait-on: 'http://localhost:5000/recipes, http://localhost:3000'
+          wait-on-timeout: 120
+          headless: true
+
+      - name: Start Selenoid
+        uses: Xotabu4/selenoid-github-action@v2
+        with:
+          selenoid-start-arguments: |
+            --args "-timeout 100s" --browsers="chrome;firefox"
+
+      - name: Run Selenide Tests
+        working-directory: selenide-tests
+        run: gradle test -Dselenide.browser=${{ matrix.browser }}
+
+      - name: Upload Allure Reports Artifact
+        if: always()
+        uses: actions/upload-artifact@v2
+        with:
+          name: selenide-allure-results-${{ matrix.browser }}
+          path: selenide-tests/build/allure-results
