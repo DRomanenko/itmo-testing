@@ -209,7 +209,7 @@ jobs:
           name: selenide-allure-results-${{ matrix.browser }}
           path: selenide/build/allure-results
 
-  Deploy-app:
+  Deploy-App:
     name: Build Docker image and deploy to Heroku
     runs-on: ubuntu-latest
     needs: [ Backend-Tests, Frontend-Tests, End-To-End-Tests, Selenide-Tests ]
