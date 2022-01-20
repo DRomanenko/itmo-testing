@@ -200,7 +200,7 @@ jobs:
             --args "-timeout 100s" --browsers="chrome;firefox"
 
       - name: Run Selenide Tests
-        working-directory: selenide-tests
+        working-directory: selenide
         run: gradle test -Dselenide.browser=${{ matrix.browser }}
 
       - name: Upload Allure Reports Artifact
