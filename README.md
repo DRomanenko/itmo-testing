@@ -115,6 +115,40 @@ cd backend && mvn generate-resources
 
 - [X] Использовать Allure reporting для написанных тестов.
 
+## ДЗ 5 (Pact-тесты)
+
+### Bonus часть:
+
+- [ ] Написать Pact-тесты к своему сервису.
+
+---
+
+## ДЗ 6 (A11Y)
+
+### Bonus часть:
+
+- [X] Протестировать свой веб-сайт на `а11y` с помощью инструментов от `Mozilla` и `Lighthouse`.
+- [X] Исправить проблемы.
+- [X] Сделать автоматический тест с `AXE`.
+
+### Проблемы
+
+#### Mozilla
+- **Login**/**Register**: `Focusable element must have focus styling`
+- **Navigation**: `Clickable elements must be focusable and should have interactive semantics`
+- **Text fields**: `Form elements should have a visible text label`
+
+#### Lighthouse
+
+- **Home page**: `Heading elements are not in a sequentially-descending order`
+
+### Тесты
+
+- [**a11y**](client/src/tests/e2e/a11y) - A11y tests.
+```bash
+npx playwright test src/tests/e2e/a11y/* --workers=1 --config=src/tests/e2e/playwright.config.ts
+```
+
 ## ДЗ 7 (Selenium)
 ### Требования
 ### Main часть:

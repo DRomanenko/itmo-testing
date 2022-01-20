@@ -197,8 +197,7 @@ jobs:
         uses: Xotabu4/selenoid-github-action@v2
         with:
           selenoid-start-arguments: |
-            --args "-timeout 200s" --browsers="chrome;firefox"
-
+            --args "-timeout 150s" --browsers="chrome;firefox"
       - name: Run Selenide Tests
         working-directory: selenide
         run: gradle test -Dselenide.browser=${{ matrix.browser }}
