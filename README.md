@@ -104,7 +104,7 @@ cd backend && mvn generate-resources
 
 ### Advanced часть:
 
-- [ ] Добавить GitHub action для деплоя приложения UI+BE на Azure/Vercel/Яндекс Облако.
+- [X] Добавить GitHub action для деплоя приложения UI+BE на Azure/Vercel/Яндекс Облако.
 
 ### Bonus часть:
 
@@ -160,7 +160,7 @@ npx playwright test src/tests/e2e/a11y/* --workers=1 --config=src/tests/e2e/play
 - [X] Настроить запуск тестов с Selenoid.
 
 ### Bonus часть:
-- [ ] Настроить генерацию отчетов с Allure report, сделав полный сетап в GitHub: e2e тесты с selenide запускаются с использованием Selenoid на разных окружениях(браузерах) параллельно и собирают отчет с помощью Allure Report.
+- [X] Настроить генерацию отчетов с Allure report, сделав полный сетап в GitHub: e2e тесты с selenide запускаются с использованием Selenoid на разных окружениях(браузерах) параллельно и собирают отчет с помощью Allure Report.
 - [X] Написать статью как собрать такой сетап.
 
 ### Тесты
@@ -187,3 +187,7 @@ cd selenide && gradle test
 ### Статья
 
 - [**Настройка тестов**](selenide/README.md) - статья по настройке подобных тестов
+
+### Allure Reports
+
+- [**Allure Reports**](https://dromanenko.github.io/itmo-testing) - отчеты о тестах
